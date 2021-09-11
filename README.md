@@ -4,7 +4,7 @@ This is an attempt to collect notes on mathematics resources I have used and con
 
 The list is (clearly) far from complete. I will add to it whenever I feel like it!
 
-# Contents
+## Contents
 
 - [Analysis](#analysis)
   - [Introductory real analysis](#introductory-real-analysis)
@@ -18,17 +18,17 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Differential topology](#differential-topology)
   - [Riemannian geometry](#riemannian-geometry)
 
-# Analysis
+## Analysis
 
-## Introductory real analysis
+### Introductory real analysis
 
-## Complex analysis
+### Complex analysis
 
 1. Rao, Stetkær, Fournais, Møller, *Complex Analysis: An Invitation*.
 2. Ullrich, *Complex Made Simple*.
 
 
-## Measure theory and probability theory
+### Measure theory and probability theory
 
 1. Bauer, *Measure and Integration Theory*.
 2. Bauer, *Probability Theory*.
@@ -36,7 +36,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 4. Folland, *Real Analysis*.
 5. Billingsley, *Convergence of Probability Measures*.
 
-## Functional and harmonic analysis
+### Functional and harmonic analysis
 
 1. Folland, *Real Analysis*.
 1. Rudin, *Functional Analysis*.
@@ -44,13 +44,13 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 4. Folland, *Abstract Harmonic Analysis*.
 5. Helemskii, *Lectures and Exercises on Functional Analysis*.
 
-# Algebra
+## Algebra
 
 1. Aluffi, *Algebra: Chapter 0*.
 
-# Topology and geometry
+## Topology and geometry
 
-## Point-set topology
+### Point-set topology
 
 Point-set (or 'general') topology is relatively self-contained as a discipline, but (for good reason!) it is usually taught after introductory real analysis. Parts of it also depend quite heavily on non-trivial set theory, but most introductory textbooks on topology cover the required amount of set theory quite nicely.
 
@@ -88,16 +88,16 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 6. Bradley, Bryson, Terilla, *Topology: A Categorical Approach*.
 
-## Algebraic topology
+### Algebraic topology
 
 1. Rotman, *An Introduction to Algebraic Topology*.
 2. tom Dieck, *Algebraic Topology*.
 
-## Differential topology and geometry
+### Differential topology and geometry
 
 1. Lee, *Introduction to Smooth Manifolds*.
 
-## Riemannian geometry
+### Riemannian geometry
 
 1. Lee, *Introduction to Riemannian Manifolds*.
 2. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
