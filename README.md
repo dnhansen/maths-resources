@@ -10,12 +10,13 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Introductory real analysis](#introductory-real-analysis)
   - [Complex analysis](#complex-analysis)
   - [Measure theory and probability theory](#measure-theory-and-probability-theory)
-  - [Functional analysis](#functional-analysis)
+  - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
 - [Algebra](#algebra)
 - [Topology and geometry](#topology-and-geometry)
   - [Point-set topology](#point-set-topology)
   - [Algebraic topology](#algebraic-topology)
   - [Differential topology](#differential-topology)
+  - [Riemannian geometry](#riemannian-geometry)
 
 # Analysis
 
@@ -23,11 +24,29 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 
 ## Complex analysis
 
+1. Rao, Stetkær, Fournais, Møller, *Complex Analysis: An Invitation*.
+2. Ullrich, *Complex Made Simple*.
+
+
 ## Measure theory and probability theory
 
-## Functional analysis
+1. Bauer, *Measure and Integration Theory*.
+2. Bauer, *Probability Theory*.
+3. Cohn, *Measure Theory*.
+4. Folland, *Real Analysis*.
+5. Billingsley, *Convergence of Probability Measures*.
+
+## Functional and harmonic analysis
+
+1. Folland, *Real Analysis*.
+1. Rudin, *Functional Analysis*.
+3. Conway, *A Course in Functional Analysis*.
+4. Folland, *Abstract Harmonic Analysis*.
+5. Helemskii, *Lectures and Exercises on Functional Analysis*.
 
 # Algebra
+
+1. Aluffi, *Algebra: Chapter 0*.
 
 # Topology and geometry
 
@@ -55,9 +74,9 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 3. Willard, *General Topology*. My favourite point-set topology book at this level. One demerit mark for the restrictive definition of local compactness, though this is a small complaint since most locally compact spaces are Hausdorff, in which case all the usual definitions of local compactness coincide.
 
-    I especially like the coverage of weak/initial and strong/final topologies (though be aware of an error in Exercise 9H.3 as described [here](https://math.stackexchange.com/questions/2370532/can-a-set-be-homeomorphic-to-a-quotient-map-from-itself-making-sense-of-a-probl/)). It could benefit from a more explicit categorical approach; some of the arguments and much of the exposition could have been improved if Willard had been able to assume of his readers a passing familiary with category theory. But if you know what products and coproducts are, you should be in good shape to fill in the gaps yourself.
+    I especially like the coverage of weak/initial and strong/final topologies (though be aware of an error in Exercise 9H.3 as described [here](https://math.stackexchange.com/questions/2370532/can-a-set-be-homeomorphic-to-a-quotient-map-from-itself-making-sense-of-a-probl/)). It could benefit from a more explicit categorical approach; some of the arguments and much of the exposition could have been improved if Willard had been able to assume of his readers a passing familiarity with category theory. But if you know what products and coproducts are, you should be in good shape to fill in the gaps yourself.
 
-    To make a couple of benefits of weak topologies explicit: Both subspace topologies and product topologies are weak, the former induced by the inclusion map, the latter by the projections onto each factor. Hence we may e.g. prove a characterisation theorem for weak topologies in general and then specialise to each particular case. Another benefit is that this makes the connection between weak\*- and product topologies explicit.
+    To make a couple of benefits of considering general weak topologies explicit: Both subspace topologies and product topologies are weak, the former induced by the inclusion map, the latter by the projections onto each factor. Hence we may e.g. prove a characterisation theorem for weak topologies in general and then specialise to each particular case. Another benefit is that this makes the connection between weak\*- and product topologies explicit.
 
 4. Lee, *Introduction to Topological Manifolds*. Could also have been called 'Introduction to Topology with Applications to Manifolds', since much of the book consists of a double course in point-set and algebraic topology.
 
@@ -71,4 +90,15 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ## Algebraic topology
 
-## Differential topology
+1. Rotman, *An Introduction to Algebraic Topology*.
+2. tom Dieck, *Algebraic Topology*.
+
+## Differential topology and geometry
+
+1. Lee, *Introduction to Smooth Manifolds*.
+
+## Riemannian geometry
+
+1. Lee, *Introduction to Riemannian Manifolds*.
+2. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
+3. Petersen, *Riemannian Geometry*.
