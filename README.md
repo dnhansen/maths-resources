@@ -11,7 +11,8 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 - [Analysis](#analysis)
     - [Introductory real analysis](#introductory-real-analysis)
     - [Complex analysis](#complex-analysis)
-    - [Measure theory and probability theory](#measure-theory-and-probability-theory)
+    - [Measure and integration theory](#measure-and-integration-theory)
+    - [Probability theory](#probability-theory)
     - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
 - [Algebra](#algebra)
     - [Linear algebra](#linear-algebra)
@@ -22,6 +23,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
     - [Algebraic topology](#algebraic-topology)
     - [Differential topology](#differential-topology-and-geometry)
     - [Riemannian geometry](#riemannian-geometry)
+- [Mathematical physics](#mathematical-physics)
 
 ## Analysis
 
@@ -56,13 +58,36 @@ Finally, multidimensional analysis, in particular differentiation of functions b
 2. Ullrich, *Complex Made Simple*.
 
 
-### Measure theory and probability theory
+### Measure and integration theory
 
-1. Bauer, *Measure and Integration Theory*.
-2. Bauer, *Probability Theory*.
-3. Cohn, *Measure Theory*.
-4. Folland, *Real Analysis*.
-5. Billingsley, *Convergence of Probability Measures*.
+I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende mål- og integralteori*, so I don't know how good the books below are for beginners. (Thorbjørnsen's book is excellent as an introduction. It is very clearly written with great exercises, and the only prerequisite is first-year analysis and linear algebra.)
+
+1. Bauer, *Measure and Integration Theory*. I haven't read most of this book, but it seems like a perfectly respectable first introduction to measure theory. If the 'sequel' *Probability Theory* (see [below](#probability-theory)) is any indication, this book is certain to be clear and well-motivated.
+
+    The parts that I *have* read are, first of all: The sections on product measures and convolutions of measures. Both of these are excellent, and the latter in particular is a great way to pick up the results about convolutions needed in probability theory. And secondly the section on convergence of Radon measures, in which Bauer introduces vague and weak convergence of measures, both of which are of central importance in probability theory.
+
+2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. The chapter on Polish spaces is particularly nice.
+
+3. Folland, *Real Analysis*. Perhaps not the best *introduction* to measure and integration theory, but it is great as a second book on the subject. Of particular interest are the following sections:
+
+    - Outer measures and Borel measures on the real line
+    - Modes of convergence and the *n*-dimensional Lebesgue integral
+    - The chapter on signed measures (skip the last couple of sections if you feel like it)
+    - The chapters on point-set topology and functional analysis (see also [below](#point-set-topology))
+    - The first couple of sections on *L^p*-spaces
+    - The chapter on Radon measures (you can skip the last section)
+    - The chapters on Fourier analysis and distributions
+
+    Some issues I have with the book: Folland doesn't assume any knowledge of topological spaces, so many theorems in the first half of the book are stated for metric spaces even though they generalise immediately. Some of the proofs are also less than clear for this reason. A few theorems are also proven in less than full generality, even though they would be no less difficult to state or prove more generally. So keep your eye out, and if it seems like something can be generalised, it probably can.
+
+
+### Probability theory
+
+1. Bauer, *Probability Theory*.
+
+2. Billingsley, *Convergence of Probability Measures*.
+
+3. Kallenberg, *Foundations of Modern Probability*. A massive tome which I can't claim to have read. From perusing it it does seem a bit terse and perhaps not great to learn from. One specific issue I have with it is Kallenberg's focus on *second-countable* locally compact Hausdorff spaces, which is just not necessary for e.g. the Riesz representation theorem.
 
 ### Functional and harmonic analysis
 
@@ -153,3 +178,12 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 2. Lee, *Introduction to Riemannian Manifolds*.
 3. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
 4. Petersen, *Riemannian Geometry*.
+
+
+## Mathematical physics
+
+1. Hall, *Quantum Mechanics for Mathematicians*.
+2. Moretti, *Fundamental Mathematical Structures of Quantum Mechanics*.
+3. Reed, Simon, *Methods of Modern Mathematical Physics*.
+4. Abraham, Marsden, *Foundations of Mechanics*.
+5. Arnold, *Mathematical Methods of Classical Mechanics*.
