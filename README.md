@@ -2,13 +2,15 @@
 
 This is an attempt to collect notes on mathematics resources I have used and continue to use. It is not meant to be authoritative or exhaustive, but perhaps someone might benefit from my thoughts on the resources below.
 
+The entries in each main section are listed roughly in 'recommended reading order'.
+
 The list is (clearly) far from complete. I will add to it whenever I feel like it!
 
 ## Contents
 
 - [Analysis](#analysis)
   - [Introductory real analysis](#introductory-real-analysis)
-  - [Complex analysis](#complex-analysis)
+  - [Complex analysis](#complex-analysis)f
   - [Measure theory and probability theory](#measure-theory-and-probability-theory)
   - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
 - [Algebra](#algebra)
@@ -21,6 +23,29 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 ## Analysis
 
 ### Introductory real analysis
+
+By this I mean basically everything that does not require measure theory, and which doesn't fall under more specific headings such as differential equations.
+
+The first order of business is to become familiar with the theory of continuous functions between Euclidean spaces, or better yet metric spaces. This required some knowledge of the topology of the spaces in question, and the books below should cover the necessary material.
+
+Next, on to differentiation and integration, which can be done in varying levels of generality. I personally like the Riemann-Stieltjes integral (see Rudin or especially Apostol below) since it provides an obvious but useful generalisation of the ordinary Riemann (or Darboux) integral, and serves as a first step towards things like like integrals.
+
+Finally, multidimensional analysis, in particular differentiation of functions between general Euclidean spaces (or maybe even infinite-dimensional spaces!), and integration of them as well. The theory of differentiation is very important, but I feel like it is perfectly possible to do without much knowledge of multidimensional Riemann integrals. The Lebesgue integral is just so much nicer, and you will want to become intimately familiar with it down the line anyway.
+
+1. Rudin, *Principles of Mathematical Analysis*. The classic. It is a bit light on content, and certainly the later chapters should be avoided: the material on differential forms and the Lebesgue integral is better found elsewhere.
+
+    Things I especially like: The coverage of the exponential function, first in an 'early transcendentals' fashion, defining it first for integer, then rational and finally real exponents, and later reconciling this with the 'late transcendentals' definitions in terms of integrals and power series. The introduction of perfect sets is also interesting and yields a topological proof of the uncountability of the reals.
+
+
+2. Apostol, *Mathematical Analysis*. Another classic, often compared to Rudin's book. I tend to prefer Apostol's treatment of the basic material, it is more complete and less terse, but they complement each other well.
+
+    Things to like: An excellent coverage of metric space topology, though with a different focus than Rudin. It also treats Riemann-Stieltjes integrals in great generality, and contains basically everything you could ever want to know about Riemann integration.
+
+3. Duistermaat, Kolk, *Multivariate Real Analysis*. Assumes knowledge of one-dimensional analysis as covered in one of the books above. Covers multidimensional differential and integral calculus in a very modern fashion, especially the former, and also gets into some basic theory of manifolds (though only submanifolds of Euclidean space). It also covers the antidifferentiation problem in higher dimension, though in a rather unsatisfying fashion by only considering (not even piecewise) continuously differentiable curves and differentiable homotopies. But what it does it does do well.
+
+    The best part of the book is the very large number of excellent exercises! For instance, a sequence of exercises guides the reader through a derivation of (a version of) the Helmholtz-Weyl and Hodge decompositions, and Maxwell's equations in covariant form, invariance of the wave equation under Lorentz transformations, and much more. All without assuming, as geometers are want to do, that every manifold and every vector field under the sun is smooth!
+
+4. Zorich, *Mathematical Analysis*.
 
 ### Complex analysis
 
