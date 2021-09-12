@@ -2,23 +2,26 @@
 
 This is an attempt to collect notes on mathematics resources I have used and continue to use. It is not meant to be authoritative or exhaustive, but perhaps someone might benefit from my thoughts on the resources below.
 
-The entries in each main section are listed roughly in 'recommended reading order'.
+The entries in each main section are listed roughly in 'recommended reading order', insofar as I recommend each resource! Unless otherwise stated, you can assume that I have in fact found each entry worthy of recommendation.
 
 The list is (clearly) far from complete. I will add to it whenever I feel like it!
 
 ## Contents
 
 - [Analysis](#analysis)
-  - [Introductory real analysis](#introductory-real-analysis)
-  - [Complex analysis](#complex-analysis)
-  - [Measure theory and probability theory](#measure-theory-and-probability-theory)
-  - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
+    - [Introductory real analysis](#introductory-real-analysis)
+    - [Complex analysis](#complex-analysis)
+    - [Measure theory and probability theory](#measure-theory-and-probability-theory)
+    - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
 - [Algebra](#algebra)
+    - [Linear algebra](#linear-algebra)
+    - [Abstract algebra](#abstract-algebra)
+    - [Category theory](#category-theory)
 - [Topology and geometry](#topology-and-geometry)
-  - [Point-set topology](#point-set-topology)
-  - [Algebraic topology](#algebraic-topology)
-  - [Differential topology](#differential-topology)
-  - [Riemannian geometry](#riemannian-geometry)
+    - [Point-set topology](#point-set-topology)
+    - [Algebraic topology](#algebraic-topology)
+    - [Differential topology](#differential-topology-and-geometry)
+    - [Riemannian geometry](#riemannian-geometry)
 
 ## Analysis
 
@@ -43,7 +46,7 @@ Finally, multidimensional analysis, in particular differentiation of functions b
 
 3. Duistermaat, Kolk, *Multivariate Real Analysis*. Assumes knowledge of one-dimensional analysis as covered in one of the books above. Covers multidimensional differential and integral calculus in a very modern fashion, especially the former, and also gets into some basic theory of manifolds (though only submanifolds of Euclidean space). It also covers the antidifferentiation problem in higher dimension, though in a rather unsatisfying fashion by only considering (not even piecewise) continuously differentiable curves and differentiable homotopies. But what it does it does do well.
 
-    The best part of the book is the very large number of excellent exercises! For instance, a sequence of exercises guides the reader through a derivation of (a version of) the Helmholtz-Weyl and Hodge decompositions, Maxwell's equations in covariant form, invariance of the wave equation under Lorentz transformations, and much more. All without assuming, as geometers are want to do, that every manifold and every vector field under the sun is smooth!
+    The best part of the book is the very large number of excellent exercises! For instance, a sequence of exercises guides the reader through a derivation of (versions of) the Helmholtz-Weyl and Hodge decompositions, Maxwell's equations in covariant form, invariance of the wave equation under Lorentz transformations, and much more. All without assuming, as geometers are want to do, that every manifold and every vector field under the sun is smooth!
 
 4. Zorich, *Mathematical Analysis*.
 
@@ -84,9 +87,9 @@ Finally, multidimensional analysis, in particular differentiation of functions b
 
 1. Awodey, *Category Theory*. This one carries a big fat 'do not recommend'! At least for beginners. A lot of people seem to like it, and I don't get it. It's sloppy, imprecise and difficult to follow compared to so many other books on category theory.
 
-    For instance, in section 1.4 he the category **Cat** of all categories and functors, but in section 1.8 he apparently retracts this definition and lets **Cat** denote the category of *small* categories. Nevertheless he, for instance in exercise 2 of the first chapter, still wants to talk about isomorphisms of *large* categories.
+    For instance, in section 1.4 he introduces the category **Cat** of all categories and functors, but in section 1.8 he apparently retracts this definition and lets **Cat** denote the category of *small* categories. Nevertheless he, for instance in exercise 2 of the first chapter, still wants to talk about isomorphisms of *large* categories despite not having defined what this means.
     
-    For another example, in section 2.8 he introduces the hom-functors and calls them *the* representable functors. In exercise 18 of the same chapter he asks the reader to show that the forgetful functor from monoids to sets is representable. But what is that supposed to mean? He only introduces natural transformations in chapter 7! See also [this](https://math.stackexchange.com/questions/3299671/why-is-the-forgetful-functor-representable) discussion on StackExchange.
+    For another example, in section 2.8 he introduces hom-functors and calls them *the* representable functors. In exercise 18 of the same chapter he asks the reader to show that the forgetful functor from monoids to sets is representable. But what is that supposed to mean? He only introduces natural transformations in chapter 7! See also [this](https://math.stackexchange.com/questions/3299671/why-is-the-forgetful-functor-representable) discussion on StackExchange.
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
@@ -146,6 +149,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ### Riemannian geometry
 
-1. Lee, *Introduction to Riemannian Manifolds*.
-2. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
-3. Petersen, *Riemannian Geometry*.
+1. Do Carmo, *Differential Geometry of Curves and Surfaces*. I'll get back to the details on this one, but until then: Do not recommend!
+2. Lee, *Introduction to Riemannian Manifolds*.
+3. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
+4. Petersen, *Riemannian Geometry*.
