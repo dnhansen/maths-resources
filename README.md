@@ -80,6 +80,11 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     Some issues I have with the book: Folland doesn't assume any knowledge of topological spaces, so many theorems in the first half of the book are stated for metric spaces even though they generalise immediately. Some of the proofs are also less than clear for this reason. A few theorems are also proven in less than full generality, even though they would be no less difficult to state or prove more generally. So keep your eye out, and if it seems like something can be generalised, it probably can.
 
+4. Rudin, *Real and Complex Analysis*. A much loved textbook, though I am not a huge fan. At least the approach to measure theory is a bit annoying, since Rudin only considers measurable functions with values in a topological space, which is just not sufficient.
+
+    The rest of the first part of the book is *fine*, though I think it shows its age. The words 'Radon measure' appear a single time the whole book, namely in the end notes. The proof of the Riesz representation theorem is also stereotypically Rudin: six plus pages of exhausting mathematics without much motivation.
+
+    I haven't read the second part on complex analysis, so I won't comment on this.
 
 ### Probability theory
 
@@ -101,12 +106,37 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 ### Linear algebra
 
-1. Hoffman, Kunze, *Linear Algebra*.
-2. Roman, *Advanced Linear Algebra*.
+1. Hoffman, Kunze, *Linear Algebra*. I don't know if this might be too ambitious for beginners, but if you know a thing or two about matrices it's a very good second look at linear algebra
+
+    I particularly like the section on determinants. Hoffman and Kunze first prove the existence of determinant functions through the Laplace expansion, and then later shows that a determinant function must have a certain form (which is just the Leibniz definition of the determinant). The uniqueness is then used to e.g. prove the multiplicativity of determinants.
+
+    At least the later chapters do assume a certain level of mathematical maturity, but the exposition is clear and pleasantly succinct.
+
+2. Roman, *Advanced Linear Algebra*. Assumes some knowledge of basic linear algebra, in particular matrices and determinants, and some abstract algebra. The exposition is very modern, and matrices and systems of equations are used only sparingly in proofs (as they should!).
+
+    Those results that explicitly concern matrices are also handled pleasingly abstractly without unnecessary calculations that hide the structure behind each proof. For instance, Roman proves that the row rank and column rank of a matrix coincide by proving that both ranks are preserved under both elementary row and column operations, and that every matrix can be reduced through these operations to a diagonal matrix with ones and zeros on the diagonal.
+
+    The first part of the book covers both vector spaces and modules before moving on to eigenvalues/-vectors, inner product spaces and normal/self-adjoint operators, though most of this latter material can be appreciated without reading the chapters on modules.
+
+    The second part is then a collection of (with one exception) independent chapters on a wide selection of topics, including bilinear forms, Hilbert spaces, tensor products, and affine geometry.
+
 
 ### Abstract algebra
 
-1. Aluffi, *Algebra: Chapter 0*.
+1. Aluffi, *Algebra: Chapter 0*. 'Chapter 0' is perhaps putting it a bit strongly, but Aluffi only presupposes mathematical maturity and knowledge of the basic properties of the natural through the complex numbers. Some familiarity with linear algebra is also useful for some of the exercises, in particular matrix groups.
+
+    The book starts with a chapter on set theory, functions and relations, and most importantly *category theory*. The latter is covered throughout the book as it becomes more and more important. The first section on category theory covers (locally small) categories, products and coproducts, universal properties, but that's it.
+
+    Other than the categorical focus it is a very standard textbook. It covers groups, rings, modules, fields, and some homological algebra. The exposition is mostly excellent. The treatment of quotient groups is the best I have seen (Aluffi starts with the simple assumption that the natural map from the group to the quotient be a group homomorphism, and the requirement that the subgroup be normal arises naturally from this), and I am left wondering why I haven't seen any other authors take this approach. (I hope this is simply my lack of experience!)
+
+    One thing that annoys me: The categorical approach could have been a bit more explicit, and I think some of the results would be more transparent with a slightly stronger background in category theory. For instance, group kernels are given by equalisers, but Aluffi doesn't use this word but simply describes the universal property.
+
+2. Dummit, Foote, *Abstract Algebra*. Two comments:
+
+    First compare Dummit and Foote's treatment of quotient groups to that of Aluffi: D&F initially define quotients by *kernels*. Not even normal subgroups, but *kernels*. That at least tells me everything I need to know about their view on exposition.
+
+    The book includes a *lot* of exercises, many of them very good.
+
 
 ### Category theory
 
