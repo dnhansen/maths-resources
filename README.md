@@ -201,7 +201,10 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ### Algebraic topology
 
-1. Lee, *Introduction to Topological Manifolds*.
+1. Lee, *Introduction to Topological Manifolds*. Contains first of all a very nice and standard introduction to the fundamental group. I particularly like Lee's very clear coverage of homotopy, especially the difference between free and relative homotopy, and why we need relative homotopy to make sense of path homotopy. For loops we might as well take the circle to be the domain of each path, and path homotopy of loops then amounts to *free* homotopy of the circle representatives of the loops in question.
+
+    Lee also has a very nice *and understandable* chapter on cell complexes, in particular CW complexes and simplicial complexes. Since he has already covered quotients, disjoint unions and adjunction spaces, he can leverage this in his discussion of cell complexes upfront instead of sticking it in an appendix like some authors do... The upshot is that you walk away with more than just an intuitive understanding of complexes.
+
 2. Rotman, *An Introduction to Algebraic Topology*.
 3. tom Dieck, *Algebraic Topology*.
 
@@ -209,7 +212,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 1. McCarty, *Topology: An Introduction with Applications to Topological Groups*. As the title suggests, this is an introduction to topology with a special focus on topological groups. Each topic is first covered for general topological spaces and then specialised to topological groups, so I suppose it could serve as a general introduction to point-set (and a little bit of algebraic) topology, though I would prefer the books mentioned [above](#point-set-topology).
 
-    There is both good and bad here. It is fairly elementary with good exercises, and it has good coverage of the elementary theory. The structure of the book is a bit odd, very few results are singled out as 'theorems', so it probably doesn't work very well as a reference. Many of the proofs are also a bit awkward, so one might instead use it as a guide to *results* of which the reader might themselves supply the *proofs*.
+    There is both good and bad here. It is fairly elementary with good exercises, and it has good coverage of the elementary theory. The structure of the book is a bit odd, very few results are singled out as 'theorems', so it probably doesn't work very well as a reference. Some of the proofs are also a bit awkward, so one might instead use it as a guide to *results* of which the reader might themselves supply the *proofs*.
 
 2. Folland, *A Course in Abstract Harmonic Analysis*. This is not a book on topological groups as such, but it might serve as a second reference for the very basic topology of groups.
 
