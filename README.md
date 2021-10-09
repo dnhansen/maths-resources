@@ -61,11 +61,11 @@ Finally, multidimensional analysis, in particular differentiation of functions b
 
 ### Measure and integration theory
 
-I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende mål- og integralteori*, so I don't know how good the books below are for beginners. (Thorbjørnsen's book is excellent as an introduction. It is very clearly written with great exercises, and the only prerequisite is first-year analysis and linear algebra.)
+I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende mål- og integralteori*, so I don't know how good the books below are for beginners. (Thorbjørnsen's book is excellent as an introduction. It is very clearly written with great exercises, and the only prerequisites are first-year analysis and linear algebra.)
 
 1. Bauer, *Measure and Integration Theory*. I haven't read most of this book, but it seems like a perfectly respectable first introduction to measure theory. If the 'sequel' *Probability Theory* (see [below](#probability-theory)) is any indication, this book is certain to be clear and well-motivated.
 
-    The parts that I *have* read are, first of all: The sections on product measures and convolutions of measures. Both of these are excellent, and the latter in particular is a great way to pick up the results about convolutions needed in probability theory. And secondly the section on convergence of Radon measures, in which Bauer introduces vague and weak convergence of measures, both of which are of central importance in probability theory.
+    The parts that I *have* read are, first of all: The sections on product measures and convolutions of measures. Both of these are excellent, and the latter in particular is a great way to pick up the results about convolutions needed in probability theory. And secondly the section on convergence of Radon measures, in which Bauer introduces vague and weak convergence of measures, both of which are of central importance in probability theory. This is only done in any detail for measures on locally compact Hausdorff spaces, so for the corresponding theory for metric spaces one must go elsewhere (see e.g. Billingsley [below](#probability-theory)).
 
 2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. The chapter on Polish spaces is particularly nice.
 
@@ -191,7 +191,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
     Categories are also not used in any substantial way in the discussion of point-set topology. Every time you see something that seems like it would benefit from the categorical view point, try to put things in categorical terms. For example, in problem 3-13 the reader is asked to show that if a continuous map *f* has a continuous left inverse, then *f* is a topological embedding. In fact, an arrow in **Top** is a topological embedding if and only if it is a regular monomorphism, i.e. if it is an equaliser. (This fact is quite natural, since equalisers in **Top** are subspaces.) So in particular a split monomorphism is an embedding.
 
-    It also serves nicely as a self-contained introduction to point-set topology. However, analysts will find it lacking since it doesn't cover things like the product topology and Tychonoff's theorem, the Stone--Weierstrass theorem, and so on. For this there is e.g. Willard or Folland (see below).
+    It also serves nicely as a self-contained introduction to point-set topology. However, analysts will find it lacking since it doesn't cover things like the product topology and Tychonoff's theorem, the Stone-Weierstrass theorem, and so on. For this there is e.g. Willard or Folland (see below).
 
     If you, like me, have tried and failed to learn algebraic topology from Hatcher, you will also be delighted that this is a book on algebraic topology that you can actually understand! In one sentence one might say that Lee has *respect* for point-set topology, something which Hatcher seemingly lacks. But more on algebraic topology [below](#algebraic-topology).
 
@@ -207,9 +207,13 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ### Topological groups and vector spaces
 
-1. McCarty, *Topology: An Introduction with Applications to Topological Groups*.
-2. Folland, *A Course in Abstract Harmonic Analysis*.
-3. Narici, Beckenstein, *Topological Vector Spaces*
+1. McCarty, *Topology: An Introduction with Applications to Topological Groups*. As the title suggests, this is an introduction to topology with a special focus on topological groups. Each topic is first covered for general topological spaces and then specialised to topological groups, so I suppose it could serve as a general introduction to point-set (and a little bit of algebraic) topology, though I would prefer the books mentioned [above](#point-set-topology).
+
+    There is both good and bad here. It is fairly elementary with good exercises, and it has good coverage of the elementary theory. The structure of the book is a bit odd, very few results are singled out as 'theorems', so it probably doesn't work very well as a reference. Many of the proofs are also a bit awkward, so one might instead use it as a guide to *results* of which the reader might themselves supply the *proofs*.
+
+2. Folland, *A Course in Abstract Harmonic Analysis*. This is not a book on topological groups as such, but it might serve as a second reference for the very basic topology of groups.
+
+3. Narici, Beckenstein, *Topological Vector Spaces*.
 
 ### Differential topology and geometry
 
