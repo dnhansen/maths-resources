@@ -151,8 +151,18 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
-2. Leinster, *Basic Category Theory*.
-3. Riehl, *Category Theory in Context*.
+2. Smith, *Category Theory: A Gentle Introduction*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately.
+
+    The coverage is fairly standard. The level of abstraction increases very graduately: Smith starts with a survey of groups, mostly to serve as motivation, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only then does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
+
+    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes.
+
+    It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
+
+3. Goldblatt, *Topoi: The Categorical Analysis of Logic*.
+4. Leinster, *Basic Category Theory*.
+5. Riehl, *Category Theory in Context*.
+6. Fong, Spivak, *Seven Sketches in Compositionality*.
 
 
 ## Topology and geometry
