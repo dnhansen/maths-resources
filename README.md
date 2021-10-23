@@ -160,7 +160,13 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
     It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
 
 3. Goldblatt, *Topoi: The Categorical Analysis of Logic*.
-4. Leinster, *Basic Category Theory*.
+
+4. Leinster, *Basic Category Theory*. Ostesibly an introductory text, I think it would be difficult to follow without prior experience with category theory. But if you have read some of Smith's notes or Goldblatt's book, then it is a very nice book.
+
+    Contrary to the above resources it is written with the mathematics (graduate) student in mind: examples are furnished by standard undergraduate algebra and topology in particular, though it is not necessary to understand every single example to get through the book. This also means that he expects a certain mathematical maturity from his readers, and thus he can be considerably more brisk in his presentation.
+
+    For instance, while Smith only introduces natural transformations on page 195 (natural *isomorphisms* on page 182), Leinster already reaches this level of abstraction on page 27, immediately following a discussion on functors. The coverage of equivalence of categories is clear and well-motivated.
+
 5. Riehl, *Category Theory in Context*.
 6. Fong, Spivak, *Seven Sketches in Compositionality*.
 
