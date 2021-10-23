@@ -215,6 +215,8 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
     Lee also has a very nice *and understandable* chapter on cell complexes, in particular CW complexes and simplicial complexes. Since he has already covered quotients, disjoint unions and adjunction spaces, he can leverage this in his discussion of cell complexes upfront instead of sticking it in an appendix like some authors do... The upshot is that you walk away with more than just an intuitive understanding of complexes.
 
+    While someone like Hatcher uses the language of manifolds sparingly (at least in the chapters on the fundamental group and homology), Lee has no trouble framing his results in this language. For example, he uses the Lebesgue number lemma (another plus) to show that any path in an at least two-dimensional manifold can be modified to avoid a given point. This is then used to calculate the fundamental group of spheres. The conceptual clarity that arises from his use of the Lebesgue number lemma and the language of manifolds is very helpful.
+
 2. Rotman, *An Introduction to Algebraic Topology*.
 3. tom Dieck, *Algebraic Topology*.
 
