@@ -98,7 +98,11 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 ### Functional and harmonic analysis
 
 1. Folland, *Real Analysis*.
-1. Rudin, *Functional Analysis*.
+
+2. Rudin, *Functional Analysis*. The classic text on functional analysis. Covers: topological vector spaces and related topics, distribution theory and the Fourier transform, Banach and C*-algebras, bounded and unbounded operators on Hilbert space.
+
+    The coverage of topological vector spaces is quite nice and elementary, if a bit old-fashioned. I would have liked a more explicit mention of the topological properties of TVSs, for instance that a not necessarily T1 TVS is regular, and that T0 is sufficient for a TVS is T1, and hence T3 (perhaps even a mention of the T0 identification). But it is easy enough to fill in these details if you know the topology, which can be glanced from e.g. Willard's book (see [below](#point-set-topology)).
+
 3. Conway, *A Course in Functional Analysis*.
 4. Folland, *A Course in Abstract Harmonic Analysis*.
 5. Helemskii, *Lectures and Exercises on Functional Analysis*.
