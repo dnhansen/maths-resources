@@ -81,11 +81,16 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     Some issues I have with the book: Folland doesn't assume any knowledge of topological spaces, so many theorems in the first half of the book are stated for metric spaces even though they generalise immediately. Some of the proofs are also less than clear for this reason. A few theorems are also proven in less than full generality, even though they would be no less difficult to state or prove more generally. So keep your eye out, and if it seems like something can be generalised, it probably can.
 
-4. Rudin, *Real and Complex Analysis*. A much loved textbook, though I am not a huge fan. At least the approach to measure theory is a bit annoying, since Rudin only considers measurable functions with values in a topological space, which is just not sufficient.
+4. Schwartz, *Radon Measures on Arbitrary Topological Spaces and Cylindrical Measures*. By the master himself. Reading e.g. Bauer and Folland above, one realises that there are (at least) two different ways of construing Radon measures: Bauer requires a Radon measure to be locally finite and inner regular, while Folland requires it to be outer regular, inner regular on open sets, and finite on compact sets. Bauer actually considers these Folland-type Radon measures as well, but the bulk of his discussion concerns the former kind.
+
+    If one, like I do, prefers Folland's treatment of Radon measures, including e.g. his proof of the Riesz representation theorem (which uses the full force of Urysohn's lemma and Carathéodory's theorem), then how does one get to understand the connection to Bauer's Radon measures? Schwartz presents the connection between them very explicitly.
+
+5. Rudin, *Real and Complex Analysis*. A much loved textbook, though I am not a huge fan. At least the approach to measure theory is a bit annoying, since Rudin only considers measurable functions with values in a topological space, which is just not sufficient.
 
     The rest of the first part of the book is *fine*, though I think it shows its age. The words 'Radon measure' appear a single time the whole book, namely in the end notes. The proof of the Riesz representation theorem is also stereotypically Rudin: six plus pages of exhausting mathematics without much motivation.
 
-    I haven't read the second part on complex analysis, so I won't comment on this.
+    I haven't read the second part on complex analysis, so I won't comment on it.
+
 
 ### Probability theory
 
