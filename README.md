@@ -8,23 +8,27 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
 
 ## Contents
 
-- [Analysis](#analysis)
+- [Mathematics resources](#mathematics-resources)
+  - [Contents](#contents)
+  - [Analysis](#analysis)
     - [Introductory real analysis](#introductory-real-analysis)
     - [Complex analysis](#complex-analysis)
     - [Measure and integration theory](#measure-and-integration-theory)
     - [Probability theory](#probability-theory)
     - [Functional and harmonic analysis](#functional-and-harmonic-analysis)
-- [Algebra](#algebra)
+  - [Algebra](#algebra)
     - [Linear algebra](#linear-algebra)
     - [Abstract algebra](#abstract-algebra)
     - [Category theory](#category-theory)
-- [Topology and geometry](#topology-and-geometry)
+  - [Topology and geometry](#topology-and-geometry)
     - [Point-set topology](#point-set-topology)
     - [Algebraic topology](#algebraic-topology)
     - [Topological groups and vector spaces](#topological-groups-and-vector-spaces)
-    - [Differential topology](#differential-topology-and-geometry)
+    - [Differential topology and geometry](#differential-topology-and-geometry)
     - [Riemannian geometry](#riemannian-geometry)
-- [Mathematical physics](#mathematical-physics)
+  - [Mathematical physics](#mathematical-physics)
+  - [Linguistics](#linguistics)
+  - [Philosophy](#philosophy)
 
 ## Analysis
 
@@ -281,3 +285,46 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 3. Reed, Simon, *Methods of Modern Mathematical Physics*.
 4. Abraham, Marsden, *Foundations of Mechanics*.
 5. Arnold, *Mathematical Methods of Classical Mechanics*.
+
+
+## Linguistics
+
+Linguistics is of course not mathematics! I should probably rename this list...
+
+1. Fromkin, Rodman, Hyams, *An Introduction to Language*.
+2. Fromkin, ed., *Linguistics: An Introduction to Linguistic Theory*.
+3. Comrie, *Aspect*.
+4. Comrie, *Tense*.
+5. Dahl, *Tense and Aspect Systems*.
+6. Palmer, *Mood and Modality*.
+7. Blake, *Case*.
+
+
+## Philosophy
+
+Philosophy isn't mathematics either.
+
+1. Benson, ed., *A Companion to Plato*.
+   - Dancy, 'Platonic Definitions and Forms'.
+   - Ferejohn, 'Knowledge and the Forms in Plato'.
+   - Miller, 'The Platonic Soul'.
+   - Kahn, 'Plato on Recollection'.
+   - Gill, 'Problems for Forms'.
+2. Meinwald, *Plato*.
+3. Shields, *Aristotle*.
+4.  Beebee, *Hume on Causation*.
+5.  Millican, introduction to David Hume's *Enquiry concerning Human Understanding* (Oxford World Classics).
+6.  Audi, *Epistemology*.
+7.  Loux, Crisp, *Metaphysics*.
+8.  Miller, *Philosophy of Language*.
+9.  Kim, *Philosophy of Mind*.
+10. Ladyman, *Understanding Philosophy of Science*.
+11. Kagan, *Normative Ethics*.
+12. Fisher, *Metaethics*.
+13. George, Velleman, *Philosophies of Mathematics*.
+14. Shapiro, *Thinking about Mathematics*.
+15. Psillos, *Causation and Explanation*.
+16. Melia, *Modality*.
+17. Brock, Mares, *Realism and Anti-Realism*.
+18. Mares, *A Priori*.
+19. Ladyman, Ross, *Every Thing Must Go*.
