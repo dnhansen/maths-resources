@@ -29,6 +29,8 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Mathematical physics](#mathematical-physics)
   - [Linguistics](#linguistics)
   - [Philosophy](#philosophy)
+  - [Physics](#physics)
+    - [Quantum mechanics](#quantum-mechanics)
 
 ## Analysis
 
@@ -328,3 +330,28 @@ Philosophy isn't mathematics either.
 17. Brock, Mares, *Realism and Anti-Realism*.
 18. Mares, *A Priori*.
 19. Ladyman, Ross, *Every Thing Must Go*.
+
+
+## Physics
+
+### Quantum mechanics
+
+1. Griffiths, *Introduction to Quantum Mechanics*. Obviously a popular introductory text, and I do think it's one of the best ones out there. That doesn't say much since the literature is rather lacking. Let me highlight some of the obvious flaws of the book.
+
+    The author claims that a wave function (in one dimension) must go to zero as *x* goes to plus or minus infinity, otherwise it "would not be normalizable" (2nd ed., p. 14). By this he means L^2 (p. 13). But as any sophomore mathematics student fresh out their first measure theory course can tell you, this is emphatically wrong. It is easy to find counterexamples that are discontinuous on a countable nowhere dense subset of **R**, and it is only slightly harder to find counterexamples that are *smooth*. In a footnote (p. 14) Griffiths claims that counterexamples to this claim are "pathological" and that "for us the wave function *always* goes to zero at infinity". (Only in physics could *smooth* functions be pathological... I suppose anything that is not analytic is the work of the devil?) The author also spends no effort explaining to the reader why in the world we should expect (and even postulate!) wave functions to vanish at infinity.
+    
+    In any case, if the problem with functions not going to zero at infinity is that they are so-called "pathological", then why claim that they are not L^2, only to retract this claim in a footnote? There are many functions that do and no not have this property, many of whom are L^2 and many of whom are not. It simply has nothing to do with them being L^2. Even a physicist should be able to see that. Evidently the author does as well, though he apparently also thinks that it would take a "good" mathematician to come up with counterexamples...
+
+    Another conceptually quite egregious flaw is the front-loading of the Schrödinger equation. This is introduced on page 1 with no explanation. No hint at how to think about it, no history, nothing. This is followed by a bunch of uninspiring, actually quite difficult for this level, calculations that tell you precisely nothing about quantum mechanics.
+
+    Maybe even worse, the word "vector" appears for the first time in the book *on page 93* in a chapter so uninspiringly called "Formalism". Of course it is impossible to grasp quantum mechanics without a solid understanding of linear algebra, so why wait almost a hundred pages before introducing it?
+
+    Thankfully (or miraculously?) the second half of the book, titled "Applications", is actually quite good. It contains probably the best exposition of perturbation theory I have seen at this level.
+
+2. Schumacher, Westmoreland, *Quantum Processes, Systems, and Information*. A joint introduction to quantum mechanics and quantum information theory. Probably my favourite introduction to quantum mechanics (for physicists at least!). Westmoreland is a mathematician, so even if the book is far from rigorous -- and it certainly shouldn't be as an introductory book aimed at physicists -- it is written quite carefully.
+
+    The book starts very elementary, discussing bits and qubits, distinguishability and information, and linear algebra upfront. Unitary dynamics and the Schrödinger equation are only introduced after more than 100 pages.
+
+    They are also remarkably careful when discussing questions of dimensionality of vector spaces: they don't enter into a thorough discussion of these matters, but even acknowledging that there are thorny mathematical issues puts the book above many other introductory textbooks.
+
+    One thing to keep in mind, as with most physics books, is that vector spaces are assumed finite-dimensional when this is useful. For instance, the otherwise obscure notion of time-dependence of operators becomes trivial if the operator is just a matrix. But I wish this had been made more explicit, since we surely do *not* wish to interpret operators as matrices. (Of course, all norms on a finite-dimensional vector space are equivalent so this is not necessary. But this fact is certainly not trivial, so it would seem unreasonable to assume this kind of knowledge of the reader.)
