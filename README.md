@@ -31,6 +31,9 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Philosophy](#philosophy)
   - [Physics](#physics)
     - [Quantum mechanics](#quantum-mechanics)
+  - [Computer science](#computer-science)
+    - [Algorithms and data structures](#algorithms-and-data-structures)
+    - [Haskell](#haskell)
 
 ## Analysis
 
@@ -355,3 +358,20 @@ Philosophy isn't mathematics either.
     They are also remarkably careful when discussing questions of dimensionality of vector spaces: they don't enter into a thorough discussion of these matters, but even acknowledging that there are thorny mathematical issues puts the book above many other introductory textbooks.
 
     One thing to keep in mind, as with most physics books, is that vector spaces are assumed finite-dimensional when this is useful. For instance, the otherwise obscure notion of time-dependence of operators becomes trivial if the operator is just a matrix. But I wish this had been made more explicit, since we surely do *not* wish to interpret operators as matrices. (Of course, all norms on a finite-dimensional vector space are equivalent so this is not necessary. But this fact is certainly not trivial, so it would seem unreasonable to assume this kind of knowledge of the reader.)
+
+
+## Computer science
+
+### Algorithms and data structures
+
+1. Cormen, Leiserson, Rivest, Stein, *Introduction to Algorithms*.
+2. Kleinberg, Tardos, *Algorithm Design*.
+3. Okasaki, *Purely Functional Data Structures*.
+
+
+### Haskell
+
+1. Allen, Moronuki, *Haskell Programming from First Principles*.
+2. Bird, *Thinking Functionally with Haskell*.
+3. Bird, Gibbons, *Algorithm Design with Haskell*.
+4. Hutton, *Programming in Haskell*.
