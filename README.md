@@ -238,6 +238,8 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
     There are also plenty of typos. Furthermore, many of the basic definitions work for general sets and not only topological spaces. There are no exercises, but most (all?) of the proofs are very easy once you have digested the concepts, so these may serve as exercises. Of course, any textbook covering nets (e.g. Folland, Willard) also contain exercises that may be of interest.
 
+    I have also written notes on nets and filters (currently located [here](https://github.com/dnhansen/davey-priestley-order)), which I obviously prefer.
+
 ### Algebraic topology
 
 1. Lee, *Introduction to Topological Manifolds*. Contains first of all a very nice and standard introduction to the fundamental group. I particularly like Lee's very clear coverage of homotopy, especially the difference between free and relative homotopy, and why we need relative homotopy to make sense of path homotopy. For loops we might as well take the circle to be the domain of each path, and path homotopy of loops then amounts to *free* homotopy of the circle representatives of the loops in question.
