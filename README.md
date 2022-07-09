@@ -27,6 +27,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
     - [Differential topology and geometry](#differential-topology-and-geometry)
     - [Riemannian geometry](#riemannian-geometry)
   - [Mathematical physics](#mathematical-physics)
+  - [Order theory](#order-theory)
   - [Linguistics](#linguistics)
   - [Philosophy](#philosophy)
   - [Physics](#physics)
@@ -233,6 +234,10 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 6. Bradley, Bryson, Terilla, *Topology: A Categorical Approach*.
 
+7. Naranong, 'Translating Between Nets and Filters' (archived [here](http://web.archive.org/web/20130308175220/http://www.math.tamu.edu/~saichu/netsfilters.pdf)). A nice exposition on the properties of nets and filters, using the (superior) definition of subnets following Aarnes and Andenaes. Be aware that the notes do contain some inaccuracies: for instance, the collection of tails of a net need not be nonempty if the domain of the net is empty, but a filterbase is required to be nonempty. Hence Definition 4.6 is slightly wrong. As far as I can tell we may repair this by simply requiring the domain of a net to be nonempty, for instance by requiring that directed sets be nonempty (following e.g. Kelley, but not Folland or Willard).
+
+    There are also plenty of typos. Furthermore, many of the basic definitions work for general sets and not only topological spaces. There are no exercises, but most (all?) of the proofs are very easy once you have digested the concepts, so these may serve as exercises. Of course, any textbook covering nets (e.g. Folland, Willard) also contain exercises that may be of interest.
+
 ### Algebraic topology
 
 1. Lee, *Introduction to Topological Manifolds*. Contains first of all a very nice and standard introduction to the fundamental group. I particularly like Lee's very clear coverage of homotopy, especially the difference between free and relative homotopy, and why we need relative homotopy to make sense of path homotopy. For loops we might as well take the circle to be the domain of each path, and path homotopy of loops then amounts to *free* homotopy of the circle representatives of the loops in question.
@@ -290,6 +295,11 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 3. Reed, Simon, *Methods of Modern Mathematical Physics*.
 4. Abraham, Marsden, *Foundations of Mechanics*.
 5. Arnold, *Mathematical Methods of Classical Mechanics*.
+
+
+## Order theory
+
+1. Davey, Priestley, *Introduction to Lattices and Order*.
 
 
 ## Linguistics
