@@ -28,6 +28,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
     - [Riemannian geometry](#riemannian-geometry)
   - [Mathematical physics](#mathematical-physics)
   - [Order theory](#order-theory)
+  - [Logic](#logic)
   - [Linguistics](#linguistics)
   - [Philosophy](#philosophy)
   - [Physics](#physics)
@@ -210,7 +211,7 @@ General topology is significantly more abstract than metric space topology, so i
 
 I won't say much more about metric spaces. Onto the main recommendations for point-set topology:
 
-1. Munkres, *Topology*. A classic test that covers most of what you need to know. The first chapter in particular is a great introduction to naïve set theory. You won't go wrong with it, it is very easy to read (more so than the next couple of entries on this list), but it's not my first choice.
+1. Munkres, *Topology*. A classic text that covers most of what you need to know. The first chapter in particular is a great introduction to naïve set theory. You won't go wrong with it, it is very easy to read (more so than the next couple of entries on this list), but it's not my first choice.
 
 2. Engelking, *General Topology*. Some call it the 'Baby Rudin' of topology, it is particularly well-regarded for its wide coverage of topics. Also not my first choice, if nothing else then simply because Engelking follows Bourbaki's insistence that compact spaces must be Hausdorff. This is a conceptual annoyance, at least for me, since compactness makes perfect sense and is a useful axiom even without the Hausdorff property. But other than this it is a fine book.
 
@@ -302,6 +303,16 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 ## Order theory
 
 1. Davey, Priestley, *Introduction to Lattices and Order*.
+
+
+## Logic
+
+1. Smith, *An Introduction to Formal Logic*.
+2. Leary, Kristianen, *A Friendly Introduction to Mathematical Logic*.
+3. Goldrei, *Propositional and Predicate Calculus*.
+4. Manzano, *Model Theory*.
+5. Smith, *An Introduction to Gödel's Theorems*.
+6. Cooper, *Computability Theory*.
 
 
 ## Linguistics
