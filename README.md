@@ -148,7 +148,7 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     The book starts with a chapter on set theory, functions and relations, and most importantly *category theory*. The latter is covered throughout the book as it becomes more and more important. The first section on category theory covers (locally small) categories, products and coproducts, universal properties, but that's it.
 
-    Other than the categorical focus it is a very standard textbook. It covers groups, rings, modules, fields, and some homological algebra. The exposition is mostly excellent. The treatment of quotient groups is the best I have seen (Aluffi starts with the simple assumption that the natural map from the group to the quotient be a group homomorphism, and the requirement that the subgroup be normal arises naturally from this), and I am left wondering why I haven't seen any other authors take this approach. (I hope this is simply my lack of experience!)
+    Other than the categorical focus it is a very standard textbook. It covers groups, rings, modules, fields, and some homological algebra. The exposition is mostly excellent. The treatment of quotient groups is the best I have seen (Aluffi starts with the simple assumption that the natural map from the group to the quotient be a group homomorphism, and the requirement that the subgroup be normal arises naturally from this), and I am left wondering why I haven't seen any other authors take this approach. (I hope this is simply my lack of experience!) This is not to say that there isn't room for improvement, and I try to cover the conceptual holes in [my notes](https://github.com/dnhansen/aluffi-algebra).
 
     One thing that annoys me: The categorical approach could have been a bit more explicit, and I think some of the results would be more transparent with a slightly stronger background in category theory. For instance, group kernels are given by equalisers, but Aluffi doesn't use this word but simply describes the universal property.
 
@@ -156,9 +156,15 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 2. Dummit, Foote, *Abstract Algebra*. Two comments:
 
-    First compare Dummit and Foote's treatment of quotient groups to that of Aluffi: D&F initially define quotients by *kernels*. Not even normal subgroups, but *kernels*. That at least tells me everything I need to know about their view on exposition.
+    First compare Dummit and Foote's treatment of quotient groups to that of Aluffi. There are at least three (elementary) ways of introducing quotient groups:
 
-    The book includes a *lot* of exercises, many of them very good.
+    1. Quotients by other groups, i.e. objects in the same category. This approach is not applicable to other categories, since e.g. ideals are not rings, hence not objects in the category of rings. But it is a natural approach, and we quickly find that to define an operation on the resulting quotient we require that we divide out by a *normal* subgroup. This seems to be the strategy employed by most modern algebra texts. On the other hand, there is the danger of leaving open the question of whether all relevant equivalence relations are captured by this notion of quotient.
+    
+    2. Quotients by general equivalence relations. This is the path chosen by Aluffi, and I think it is the most natural. In **Set** we cannot hope to capture the general notion of a quotient by dividing a set *A* by subsets of *A*, so while this is of course possible in **Grp**, it seems natural to take the same approach as in **Set** and then *discover* the notion of quotienting by a normal subgroup.
+
+    3. Quotients by kernels. This is of course equivalent to the first approach, but one only realises this *after* one has developed the theory of quotient groups, and it seems very unnatural if you don't already know why kernels are important in capturing the structure of algebraic objects.
+
+    Secondly, the book includes a *lot* of exercises, many of them very good.
 
 
 ### Category theory
@@ -307,8 +313,13 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ## Logic
 
-1. Smith, *An Introduction to Formal Logic*.
-2. Leary, Kristianen, *A Friendly Introduction to Mathematical Logic*.
+The definitive guide to self-studying formal logic for both mathematicians and philosophers is certainly Peter Smith's [*Beginning Mathematical Logic: A Study Guide*](https://www.logicmatters.net/tyl/), and the resources below are almost all found therein.
+
+1. Smith, *An Introduction to Formal Logic*. I will comment on the first edition, since this is the one I have read. Smith starts by spending 50 pages on *informal* logic, slowly introducing the reader to the central concepts of logical inference. He then develops first propositional logic without conditionals, introduces conditionals, and then moves on to first-order logic. The deductive system employed for both propositional and first-order logic is that of logical tableaux (the second edition has been rewritten to use natural deduction), and he eventually proves, in an admittedly very informal fashion, both soundness and completeness of first-order logic.
+
+    The writing is clear, and Smith is, as usual, very sensitive to more conceptual or philosophical issues, and highlights these when they occur.
+
+2. Leary, Kristiansen, *A Friendly Introduction to Mathematical Logic*.
 3. Goldrei, *Propositional and Predicate Calculus*.
 4. Manzano, *Model Theory*.
 5. Smith, *An Introduction to Gödel's Theorems*.
