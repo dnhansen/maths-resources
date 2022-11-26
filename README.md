@@ -313,15 +313,33 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ## Logic
 
-The definitive guide to self-studying formal logic for both mathematicians and philosophers is certainly Peter Smith's [*Beginning Mathematical Logic: A Study Guide*](https://www.logicmatters.net/tyl/), and the resources below are almost all found therein.
+The definitive guide to self-studying formal logic for both mathematicians and philosophers is certainly Peter Smith's [*Beginning Mathematical Logic: A Study Guide*](https://www.logicmatters.net/tyl/), and the resources below are all found therein. However, I disagree somewhat with Smith's advice, so below I outline a slightly different path through the material.
 
-1. Smith, *An Introduction to Formal Logic*. I will comment on the first edition, since this is the one I have read. Smith starts by spending 50 pages on *informal* logic, slowly introducing the reader to the central concepts of logical inference. He then develops first propositional logic without conditionals, introduces conditionals, and then moves on to first-order logic. The deductive system employed for both propositional and first-order logic is that of logical tableaux (the second edition has been rewritten to use natural deduction), and he eventually proves, in an admittedly very informal fashion, both soundness and completeness of first-order logic.
+When beginning one's study of formal logic, the first thing one should do is obtain some familiarity with central notions such as the distinction between syntax, semantics and proof systems. This includes the distinction between the formal languages that we study in formal logic, and the metalanguage (here some augmented version of English) we use to study those formal languages. The best place to start, in my opinion, is
+
+1. Smith, *An Introduction to Formal Logic*. I will comment on the first edition, since this is the one I have read. Smith starts by spending 50 pages on *informal* logic, slowly introducing the reader to the central concepts of logical inference. He then develops first propositional logic without conditionals, introduces conditionals, and then moves on to first-order logic. The deductive system employed for both propositional and first-order logic is that of logical tableaux (the second edition has been rewritten to use natural deduction), and he eventually proves, in an admittedly very informal fashion, both soundness and completeness of his deductive system for first-order logic.
 
     The writing is clear, and Smith is, as usual, very sensitive to more conceptual or philosophical issues, and highlights these when they occur.
 
-2. Leary, Kristiansen, *A Friendly Introduction to Mathematical Logic*.
+    One doesn't need to study this book very closely. Most of the material will be repeated in some form or another in the recommendations below, but do take note of the more philosophical or conceptual asides. Those are always worth coming back to.
+
+Next, Smith recommends Chiswell and Hodges' *Mathematical Logic*, and this is certainly a good book, but after reading the introduction above my sense is that it is just too slow. C&H's proof system of choice is natural deduction, so if one has read the second edition of Smith's own introduction, then one is already familiar with the general ideas and probably don't need a repeat. Instead, I recommend moving straight onto Smith's next recommendation:
+
+2. Leary, Kristiansen, *A Friendly Introduction to Mathematical Logic*. Instead of starting with propositional logic and building up to first-order logic, L&K introduce their version of first-order logic from the get-go. A version of propositional logic features in their proof system (essentially allowing one to 'ignore' quantifiers and make deductions that would be valid in a propositional logic), but one doesn't have to slog through another long exposition.
+
+    L&K use a Hilbert-style axiomatic system as their proof system. This has the disadvantage of being less natural than natural deduction (which I guess is quite natural), but it has the major advantage that it is very easy to reason about.
+
+    At this point, one could begin by reading through §3.2 on completeness, as well as Theorem 3.3.1 and Corollary 3.3.2 from §3.3. The material in the rest of chapter 3 will be covered in the readings on model theory below, and they are not important at this stage. However, jumping ahead and reading §4.1 could be very useful in fixing some ideas about axiomatisation before moving on to Gödel's theorems and computability theory.
+
+    Also see [my notes](https://github.com/dnhansen/leary-kristiansen-logic) on L&K.
+
+At this point the groundwork has been laid, and there are multiple different directions one could go in. The first is model theory:
+
 3. Goldrei, *Propositional and Predicate Calculus*.
 4. Manzano, *Model Theory*.
+
+And another is computability theory:
+
 5. Smith, *An Introduction to Gödel's Theorems*.
 6. Cooper, *Computability Theory*.
 
