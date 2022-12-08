@@ -51,12 +51,12 @@ Finally, multidimensional analysis, in particular differentiation of functions b
 
 1. Rudin, *Principles of Mathematical Analysis*. The classic. It is a bit light on content, and certainly the later chapters should be avoided: the material on differential forms and the Lebesgue integral is better found elsewhere.
 
-    Things I especially like: The coverage of the exponential function, first in an 'early transcendentals' fashion, defining it first for integer, then rational and finally real exponents, and later reconciling this with the 'late transcendentals' definitions in terms of integrals and power series. The introduction of perfect sets is also interesting and yields a topological proof of the uncountability of the reals.
+    Things I especially like: The coverage of the exponential function, first in an 'early transcendentals' fashion, defining it first for integer, then rational and finally real exponents, and later reconciling this with the 'late transcendentals' definitions in terms of integrals and power series (I also cover the exponential function in [my own notes](https://github.com/dnhansen/math-analysis)). The introduction of perfect sets is also interesting and yields a topological proof of the uncountability of the reals.
 
 
 2. Apostol, *Mathematical Analysis*. Another classic, often compared to Rudin's book. I tend to prefer Apostol's treatment of the basic material, it is more complete and less terse, but they complement each other well.
 
-    Things to like: An excellent coverage of metric space topology, though with a different focus than Rudin. It also treats Riemann-Stieltjes integrals in great generality, and contains basically everything you could ever want to know about Riemann integration.
+    Things to like: An excellent coverage of metric space topology, though with a different focus than Rudin. It also treats Riemann-Stieltjes integrals in great generality, and contains basically everything you could ever want to know about Riemann integration (in [my own notes](https://github.com/dnhansen/math-analysis) I give a streamlined presentation of Riemann-Stieltjes integrals, among other things using nets, and correcting a couple of mistakes in Apostol's proofs).
 
 3. Duistermaat, Kolk, *Multivariate Real Analysis*. Assumes knowledge of one-dimensional analysis as covered in one of the books above. Covers multidimensional differential and integral calculus in a very modern fashion, especially the former, and also gets into some basic theory of manifolds (though only submanifolds of Euclidean space). It also covers the antidifferentiation problem in higher dimension, though in a rather unsatisfying fashion by only considering (not even piecewise) continuously differentiable curves and differentiable homotopies. But what it does it does do well.
 
@@ -77,6 +77,8 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 1. Bauer, *Measure and Integration Theory*. I haven't read most of this book, but it seems like a perfectly respectable first introduction to measure theory. If the 'sequel' *Probability Theory* (see [below](#probability-theory)) is any indication, this book is certain to be clear and well-motivated.
 
     The parts that I *have* read are, first of all: The sections on product measures and convolutions of measures. Both of these are excellent, and the latter in particular is a great way to pick up the results about convolutions needed in probability theory. And secondly the section on convergence of Radon measures, in which Bauer introduces vague and weak convergence of measures, both of which are of central importance in probability theory. This is only done in any detail for measures on locally compact Hausdorff spaces, so for the corresponding theory for metric spaces one must go elsewhere (see e.g. Billingsley [below](#probability-theory)).
+
+    Note however that Bauer's Radon measures are *inner* regular instead of *outer* regular. See my notes on Schwartz' *Radon Measures on Arbitrary Topological Spaces and Cylindrical Measures* below.
 
 2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. The chapter on Polish spaces is particularly nice.
 
@@ -117,7 +119,7 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 2. Rudin, *Functional Analysis*. The classic text on functional analysis. Covers: topological vector spaces and related topics, distribution theory and the Fourier transform, Banach and C*-algebras, bounded and unbounded operators on Hilbert space.
 
-    The coverage of topological vector spaces is quite nice and elementary, if a bit old-fashioned. I would have liked a more explicit mention of the topological properties of TVSs, for instance that a not necessarily T1 TVS is regular, and that T0 is sufficient for a TVS is T1, and hence T3 (perhaps even a mention of the T0 identification). But it is easy enough to fill in these details if you know the topology, which can be glanced from e.g. Willard's book (see [below](#point-set-topology)).
+    The coverage of topological vector spaces is quite nice and elementary, if a bit old-fashioned. I would have liked a more explicit mention of the topological properties of TVSs, for instance that a not necessarily T1 TVS is regular, and that T0 is sufficient for a TVS is T1, and hence T3 (perhaps even a mention of the T0 identification). But it is easy enough to fill in these details if you know the topology, which can be glanced from e.g. Willard's book (see [below](#point-set-topology)). I also have a [set of notes](https://github.com/dnhansen/topological-groups) which contains most of the elementary material on topological vector spaces that Rudin uses, as well as an introduction to topological groups.
 
 3. Conway, *A Course in Functional Analysis*.
 4. Folland, *A Course in Abstract Harmonic Analysis*.
@@ -129,13 +131,13 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 1. Hoffman, Kunze, *Linear Algebra*. I don't know if this might be too ambitious for beginners, but if you know a thing or two about matrices it's a very good second look at linear algebra
 
-    I particularly like the section on determinants. Hoffman and Kunze first prove the existence of determinant functions through the Laplace expansion, and then later shows that a determinant function must have a certain form (which is just the Leibniz definition of the determinant). The uniqueness is then used to e.g. prove the multiplicativity of determinants.
+    I particularly like the section on determinants. Hoffman and Kunze first prove the existence of determinant functions through the Laplace expansion, and then later shows that a determinant function must have a certain form (which is just the Leibniz definition of the determinant). The uniqueness is then used to e.g. prove the multiplicativity of determinants. I do something similar in [my own linear algebra notes](https://github.com/dnhansen/linear-algebra-notes), which I (for obvious reasons!) prefer.
 
     At least the later chapters do assume a certain level of mathematical maturity, but the exposition is clear and pleasantly succinct.
 
 2. Roman, *Advanced Linear Algebra*. Assumes some knowledge of basic linear algebra, in particular matrices and determinants, and some abstract algebra. The exposition is very modern, and matrices and systems of equations are used only sparingly in proofs (as they should!).
 
-    Those results that explicitly concern matrices are also handled pleasingly abstractly without unnecessary calculations that hide the structure behind each proof. For instance, Roman proves that the row rank and column rank of a matrix coincide by proving that both ranks are preserved under both elementary row and column operations, and that every matrix can be reduced through these operations to a diagonal matrix with ones and zeros on the diagonal.
+    Those results that explicitly concern matrices are also handled pleasingly abstractly without unnecessary calculations that hide the structure behind each proof. For instance, Roman proves that the row rank and column rank of a matrix coincide by proving that both ranks are preserved under both elementary row and column operations, and that every matrix can be reduced through these operations to a diagonal matrix with ones and zeros on the diagonal. (This can also be proved using the theory of operator adjoints (not to be confused with *Hermitian* adjoints), avoiding the use of matrices as far as possible. I take this approach in [my notes](https://github.com/dnhansen/linear-algebra-notes).)
 
     The first part of the book covers both vector spaces and modules before moving on to eigenvalues/-vectors, inner product spaces and normal/self-adjoint operators, though most of this latter material can be appreciated without reading the chapters on modules.
 
@@ -177,11 +179,11 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
-2. Smith, *Category Theory: A Gentle Introduction*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately.
+2. Smith, *Category Theory: A Gentle Introduction*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately. He also discusses the distinction between sets as objects in their own right and *virtual classes*, a very welcome addition to the elementary mathematics literature.
 
-    The coverage is fairly standard. The level of abstraction increases very graduately: Smith starts with a survey of groups, mostly to serve as motivation, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only then does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
+    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only then does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
 
-    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes.
+    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes. Also note that it is a work in progress, so parts of it may appear more scruffy than others, but they are still eminently readable.
 
     It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
 
@@ -217,7 +219,7 @@ General topology is significantly more abstract than metric space topology, so i
 
 I won't say much more about metric spaces. Onto the main recommendations for point-set topology:
 
-1. Munkres, *Topology*. A classic text that covers most of what you need to know. The first chapter in particular is a great introduction to naïve set theory. You won't go wrong with it, it is very easy to read (more so than the next couple of entries on this list), but it's not my first choice.
+1. Munkres, *Topology*. A classic text that covers most of what you need to know. The first chapter in particular is a great introduction to naïve set theory (though why not go all out and read a book on [set theory](#logic), e.g. Goldrei's very approachable *Classic Set Theory*?). You won't go wrong with it, it is very easy to read (more so than the next couple of entries on this list), but it's not my first choice.
 
 2. Engelking, *General Topology*. Some call it the 'Baby Rudin' of topology, it is particularly well-regarded for its wide coverage of topics. Also not my first choice, if nothing else then simply because Engelking follows Bourbaki's insistence that compact spaces must be Hausdorff. This is a conceptual annoyance, at least for me, since compactness makes perfect sense and is a useful axiom even without the Hausdorff property. But other than this it is a fine book.
 
@@ -226,6 +228,8 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
     I especially like the coverage of weak/initial and strong/final topologies (though be aware of an error in Exercise 9H.3 as described [here](https://math.stackexchange.com/questions/2370532/can-a-set-be-homeomorphic-to-a-quotient-map-from-itself-making-sense-of-a-probl/)). It could benefit from a more explicit categorical approach; some of the arguments and much of the exposition could have been improved if Willard had been able to assume of his readers a passing familiarity with category theory. But if you know what products and coproducts are, you should be in good shape to fill in the gaps yourself.
 
     To make a couple of benefits of considering general weak topologies explicit: Both subspace topologies and product topologies are weak, the former induced by the inclusion map, the latter by the projections onto each factor. Hence we may e.g. prove a characterisation theorem for weak topologies in general and then specialise to each particular case. Another benefit is that this makes the connection between weak\*- and product topologies explicit.
+
+    I'm not a fan of his coverage of nets, especially subnets. For that I prefer the treatment in [my own notes](https://github.com/dnhansen/topology-nets-filters) on the topic.
 
 4. Lee, *Introduction to Topological Manifolds*. Could also have been called 'Introduction to Topology with Applications to Manifolds', since much of the book consists of a double course in point-set and algebraic topology.
 
@@ -245,7 +249,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
     There are also plenty of typos. Furthermore, many of the basic definitions work for general sets and not only topological spaces. There are no exercises, but most (all?) of the proofs are very easy once you have digested the concepts, so these may serve as exercises. Of course, any textbook covering nets (e.g. Folland, Willard) also contain exercises that may be of interest.
 
-    I have also written notes on nets and filters (currently located [here](https://github.com/dnhansen/davey-priestley-order)), which I obviously prefer.
+    I have also written [notes](https://github.com/dnhansen/topology-nets-filters) on nets and filters, which I obviously prefer.
 
 ### Algebraic topology
 
@@ -263,6 +267,8 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 1. McCarty, *Topology: An Introduction with Applications to Topological Groups*. As the title suggests, this is an introduction to topology with a special focus on topological groups. Each topic is first covered for general topological spaces and then specialised to topological groups, so I suppose it could serve as a general introduction to point-set (and a little bit of algebraic) topology, though I would prefer the books mentioned [above](#point-set-topology).
 
     There is both good and bad here. It is fairly elementary with good exercises, and it has good coverage of the elementary theory. The structure of the book is a bit odd, very few results are singled out as 'theorems', so it probably doesn't work very well as a reference. Some of the proofs are also a bit awkward, so one might instead use it as a guide to *results* of which the reader might themselves supply the *proofs*.
+
+    If one is interested specifically in topological groups (and vector spaces), then I prefer [my own notes](https://github.com/dnhansen/topological-groups).
 
 2. Folland, *A Course in Abstract Harmonic Analysis*. This is not a book on topological groups as such, but it might serve as a second reference for the very basic topology of groups.
 
@@ -342,6 +348,11 @@ And another is computability theory:
 
 5. Smith, *An Introduction to Gödel's Theorems*.
 6. Cooper, *Computability Theory*.
+
+And then there is set theory:
+
+7. Goldrei, *Classic Set Theory*.
+8. Potter, *Set Theory and Its Philosophy*.
 
 
 ## Linguistics
