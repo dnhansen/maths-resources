@@ -282,7 +282,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 1. Do Carmo, *Differential Geometry of Curves and Surfaces*. A bit fat 'stay away'! Some of my problems with the book:
 
-    Do Carmo writes in a footnote: 'In italic context, letter symbols will not be italicized so they will be clearly distinguished from the surrounding text.' First of all, this is horrendous to read, and it is not exactly aesthetically pleasing. Secondly, he seemingly misses the point that we do not italicise letters to make them stand out. Font carries meaning. The second edition was completed in 2016, he does not get a free pass because the book is old. Furthermore, he apparently finds this practice odd himself, seeing as he found it necessary to remark on it all the way on page 138!
+    Do Carmo writes in a footnote: 'In italic context, letter symbols will not be italicized so they will be clearly distinguished from the surrounding text.' First of all, this is horrendous to read, and it is not exactly aesthetically pleasing. Secondly, he seemingly misses the point that we do not italicise letters to make them stand out, but for semantic reasons. A roman letter and and italic letter are semantically distinct; otherwise there would be no distinction between e.g. 'sin' (the sine function) and '*sin*' (the product of *s*, *i* and *n*). The second edition was completed in 2016, he does not get a free pass because the book is old. Furthermore, he apparently finds this practice odd himself, seeing as he found it necessary to remark on it all the way on page 138!
 
     Already in the first chapter does he abuse notation, for instance writing '*dβ*/*d*(-*s*)'. He also distinguishes between the derivatives *dα*/*dt* and *dα*/*ds*, the latter referring to the derivative with respect to arc length, without defining what this means. Ironically, in chapter 2 he admits to a *different* abuse of notation, apparently forgetting that he had been guilty of it from the start!
 
@@ -296,7 +296,7 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
         When taking undergraduate differential geometry using Do Carmo's book, I asked my TA (who was a PhD student in geometry) how this worked, and he simply remarked that the composition above being differentiable was obvious. In fact, even the lecturer got it wrong! But in a different way, by claiming that the differential of **x**⁻¹ is the inverse of the differential of **x** *as a map between Euclidean spaces*.
     
-    I could go on. I have no idea why people like the book so much.
+    I could go on. I have no idea why people like the book so much. Furthermore, I do not see the use in doing differential geometry only on submanifolds of Euclidean spaces. One has to learn about abstract manifolds at some point, might as well do so from the beginning.
 
 2. Lee, *Introduction to Riemannian Manifolds*.
 3. O'Neill, *Semi-Riemannian Geometry: With Applications to Relativity*.
