@@ -29,6 +29,10 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Mathematical physics](#mathematical-physics)
   - [Order theory](#order-theory)
   - [Logic](#logic)
+    - [Propositional and first-order logic](#propositional-and-first-order-logic)
+    - [Set theory](#set-theory)
+    - [Computability theory](#computability-theory)
+    - [Model theory](#model-theory)
   - [Linguistics](#linguistics)
   - [Philosophy](#philosophy)
   - [Physics](#physics)
@@ -319,7 +323,9 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ## Logic
 
-The definitive guide to self-studying formal logic for both mathematicians and philosophers is certainly Peter Smith's [*Beginning Mathematical Logic: A Study Guide*](https://www.logicmatters.net/tyl/), and the resources below are all found therein. However, I disagree somewhat with Smith's advice, so below I outline a slightly different path through the material.
+The definitive guide to self-studying formal logic for both mathematicians and philosophers is certainly Peter Smith's [*Beginning Mathematical Logic: A Study Guide*](https://www.logicmatters.net/tyl/), and most of the resources below are found therein. However, I disagree somewhat with some of Smith's advice, so below I outline a slightly different path through the material.
+
+### Propositional and first-order logic
 
 When beginning one's study of formal logic, the first thing one should do is obtain some familiarity with central notions such as the distinction between syntax, semantics and proof systems. This includes the distinction between the formal languages that we study in formal logic, and the metalanguage (here some augmented version of English) we use to study those formal languages. The best place to start, in my opinion, is
 
@@ -339,20 +345,43 @@ Next, Smith recommends Chiswell and Hodges' *Mathematical Logic*, and this is ce
 
     Also see [my notes](https://github.com/dnhansen/leary-kristiansen-logic) on L&K.
 
-At this point the groundwork has been laid, and there are multiple different directions one could go in. The first is model theory:
+At this point the groundwork has been laid, and there are multiple different directions one could go in: The most important are set theory, computability theory, and model theory. Mathematicians should cope readily with the technical aspects of set theory, though they may struggle slightly with the more philosophical or conceptual parts (unless they have been brought up right). Computability theory is of central importance in computer science, and we also collect the more CS-oriented recommendations here. Finally, model theory is probably the most technically (if not conceptually) difficult of the three.
+
+### Set theory
+
+1. Goldrei, *Classic Set Theory*.
+2. Potter, *Set Theory and Its Philosophy*.
+
+### Computability theory
+
+1. Chiswell, *A Course in Formal Languages, Automata and Groups*. For mathematicians a great introduction to grammars, the Chomsky hierarchy, and automata. The final chapter is on applications to group theory, e.g. the word problem. Chiswell takes a grammars-first approach, and only later proves that different classes of languages are accepted by certain classes of automata, or that the regular languages constitute the smallest rationally closed (i.e., which contains the finite languages, and which is closed under the Kleene star operation, unions and concatenation).
+   
+   The book is naturally light on applications, but these can readily be learnt from the computer science literature, which can now be perused very easily since the foundations have been laid.
+
+   If one is not interested in applications to group theory, the final chapter can easily be skipped (or saved for another day).
+
+2. Kozen, *Automata and Computability*. Written as a series of somewhat mutually independent lectures, much of the material is familiar to anyone having studied CS-oriented computability theory. If one has already read Chiswell (or learnt the material elsewhere), of particular interest are the following sections:
+
+    - Lectures 7-9 and supplementary lecture A on regular expressions, pattern matching and Kleene algebras.
+    - Lecture 10 on homomorphisms, with applications to regular languages.
+    - Lecture 12 on applications of the pumping lemma for regular languages (in case one is interested in seeing more examples).
+    - Lectures 13-16 (in particular 14) and supplementary lecture B on minimisation of finite automata.
+    - [TODO C,D]
+    - Lecture 26 on parsing.
+    - Lecture 27 on the CKY algorithm.
+    - Supplementary lecture G on the Chomsky-Schützenberger theorem, which characterises the context-free languages as the homomorphic images of intersections of regular languages and certain 'parenthesis languages' (also called Dyck languages).
+    - Supplementary lecture H on Parikh's theorem, whose statement is more technical.
+
+    The final part of the book concerns Turing machines, but they will be covered in greater detail in the recommendations below.
+
+3. Smith, *An Introduction to Gödel's Theorems*.
+
+4. Cooper, *Computability Theory*.
+
+### Model theory
 
 3. Goldrei, *Propositional and Predicate Calculus*.
 4. Manzano, *Model Theory*.
-
-And another is computability theory:
-
-5. Smith, *An Introduction to Gödel's Theorems*.
-6. Cooper, *Computability Theory*.
-
-And then there is set theory:
-
-7. Goldrei, *Classic Set Theory*.
-8. Potter, *Set Theory and Its Philosophy*.
 
 
 ## Linguistics
