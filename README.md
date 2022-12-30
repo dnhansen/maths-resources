@@ -318,8 +318,17 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
 
 ## Order theory
 
-1. Davey, Priestley, *Introduction to Lattices and Order*.
+1. Davey, Priestley, *Introduction to Lattices and Order*. A very good elementary introduction to order and lattice theory. Assumes basically nothing from the reader and goes quite slowly through the material. From a strictly mathematical point of view, I don't find order or lattice theory particularly interesting, but they are very useful at clarifying conceptual issues. Highlights of this nature in my reading so far are:
 
+    - The Knaster-Tarski fixpoint theorem is used to prove Banach's decomposition theorem, and this in turn gives an easy proof of the Schröder-Bernstein theorem. (Cf. Theorem 2.35 and Exercise 2.32.)
+    
+    - The authors make a throwaway comment that the extent and intent of a concept appear asymmetrically in the definition of the ordering on the set of concepts of a given context, and that this asymmetry is 'illusory'. In fact, the extent and intent do not appear asymmetrically, but rather *antisymmetrically*. This distinction between asymmetry and antisymmetry is of course an important one, I suppose culminating in the idea of contravariant functors. (Cf. §3.2.)
+
+    - It is well-known that many types of structures are preserved under intersection but not union: For instance, any intersection of subgroups is a subgroup, but a union of subgroups is usually not a subgroup. However, a union of an *increasing sequence* of subgroups is a subgroup. In other words, the union of a *chain* of subgroups is a subgroup. The authors note that it suffices that a collection of subgroups is *directed* for its union to be a subgroup. (Cf. Definition 7.10 and the following discussion.)
+
+        I am reminded of the fact from topology that the union of a finite collection of closed sets is closed, but it actually suffices that the collection is *locally* finite (cf. e.g. Lee's *Introduction to Topological Manifolds*, Lemma 4.75).
+
+2. Fong, Spivak, *Seven Sketches in Compositionality*.
 
 ## Logic
 
