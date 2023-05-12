@@ -86,15 +86,17 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. The chapter on Polish spaces is particularly nice.
 
-3. Folland, *Real Analysis*. Perhaps not the best *introduction* to measure and integration theory, but it is great as a second book on the subject. Of particular interest are the following sections:
+3. Folland, *Real Analysis*. Perhaps not the best *introduction* to measure and integration theory, but it is great as a second book on the subject. Some chapters are certainly better than others:
 
-    - Outer measures and Borel measures on the real line
-    - Modes of convergence and the *n*-dimensional Lebesgue integral
-    - The chapter on signed measures (skip the last couple of sections if you feel like it)
-    - The chapters on point-set topology and functional analysis (see also [below](#point-set-topology))
-    - The first couple of sections on *L^p*-spaces
-    - The chapter on Radon measures (you can skip the last section)
-    - The chapters on Fourier analysis and distributions
+    - Chapter 1, Measures: Skip the results on products of $\sigma$-algebras and see instead [these notes](https://github.com/dnhansen/topology-measure-theory-notes). Many results on e.g. outer measures are fairly obvious geometrically.
+    - Chapter 2, Integration: For convergence in measure, see instead [these notes](https://github.com/dnhansen/math-analysis).
+    - Chapter 3, Signed Measures and Differentiation: §§3.4-5 on differentiation and functions of bounded variation can be skipped on first reading. See [this question](https://math.stackexchange.com/questions/3806610/folland-complex-measures-total-variation-definition) on StackExchange about the total variation of complex measures.
+    - Chapter 4, Point Set Topology: For nets (and filters) and Tychonoff's theorem, see instead [these notes](https://github.com/dnhansen/topology-nets-filters). Arzelà-Ascoli can be skipped, and so can §4.8 about embeddings in cubes.
+    - Chapter 5, Elements of Functional Analysis: For more on topological vector spaces, see [these notes](https://github.com/dnhansen/topological-groups).
+    - Chapter 6, $L^p$ Spaces: For completeness, see [these notes](https://github.com/dnhansen/math-analysis). §6.2 on duality can be skipped if the proof of Minkowski's inequality for integrals is replaced by the proof I give in [these notes](https://github.com/dnhansen/folland-real-analysis) (this proof mimics the usual proof of Minkowski's inequality). Apart from this inequality, §§6.3-5 can be skipped on a first reading.
+    - Chapter 7, Radon Measures: §7.4 on products of Radon measures can be skipped on a first reading.
+    - Chapter 8, Elements of Fourier Analysis: §§8.4-7 can be skipped on a first reading. See [these notes](https://github.com/dnhansen/folland-real-analysis) for a proof of the Plancherel theorem that does not use the Schwartz space.
+    - Chapter 9, Elements of Distribution Theory: See [these notes](https://github.com/dnhansen/folland-real-analysis) for a proof of the fundamental lemma of the calculus of variations that does not use the theory of differentiation.
 
     Some issues I have with the book: Folland doesn't assume any knowledge of topological spaces, so many theorems in the first half of the book are stated for metric spaces even though they generalise immediately. Some of the proofs are also less than clear for this reason. A few theorems are also proven in less than full generality, even though they would be no less difficult to state or prove more generally. So keep your eye out, and if it seems like something can be generalised, it probably can.
 
