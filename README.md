@@ -19,6 +19,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Algebra](#algebra)
     - [Linear algebra](#linear-algebra)
     - [Abstract algebra](#abstract-algebra)
+    - [Representation theory](#representation-theory)
     - [Category theory](#category-theory)
   - [Topology and geometry](#topology-and-geometry)
     - [Point-set topology](#point-set-topology)
@@ -173,6 +174,12 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
     3. Quotients by kernels. This is of course equivalent to the first approach, but one only realises this *after* one has developed the theory of quotient groups, and it seems very unnatural if you don't already know why kernels are important in capturing the structure of algebraic objects.
 
     Secondly, the book includes a *lot* of exercises, many of them very good.
+
+
+### Representation theory
+
+1. Steinberg, *Representation Theory of Finite Groups*.
+2. Weintraub, *Representation Theory of Finite Groups: Algebra and Arithmetic*.
 
 
 ### Category theory
