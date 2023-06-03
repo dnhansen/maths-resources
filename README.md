@@ -192,11 +192,11 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
-2. Smith, *Category Theory: A Gentle Introduction*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately. He also discusses the distinction between sets as objects in their own right and *virtual classes*, a very welcome addition to the elementary mathematics literature.
+2. Smith, *Category Theory I* and *II*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately. He also discusses the distinction between sets as objects in their own right and *virtual classes*, a very welcome addition to the elementary mathematics literature.
 
-    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only then does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
+    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation and to highlight some foundational questions, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only in part II does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
 
-    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes. Also note that it is a work in progress, so parts of it may appear more scruffy than others, but they are still eminently readable.
+    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes. Also note that part II is a work in progress, so parts of it may appear more scruffy than others, but they are still eminently readable.
 
     It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
 
@@ -206,7 +206,9 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     Contrary to the above resources it is written with the mathematics (graduate) student in mind: examples are furnished by standard undergraduate algebra and topology in particular, though it is not necessary to understand every single example to get through the book. This also means that he expects a certain mathematical maturity from his readers, and thus he can be considerably more brisk in his presentation.
 
-    For instance, while Smith only introduces natural transformations on page 195 (natural *isomorphisms* on page 182), Leinster already reaches this level of abstraction on page 27, immediately following a discussion on functors. The coverage of equivalence of categories is clear and well-motivated.
+    For instance, while Smith only introduces natural transformations after more than 200 pages, Leinster already reaches this level of abstraction on page 27, immediately following a discussion on functors. The coverage of equivalence of categories is clear and well-motivated.
+
+    Freely available [from arXiv](https://arxiv.org/abs/1612.09375).
 
 5. Riehl, *Category Theory in Context*.
 6. Fong, Spivak, *Seven Sketches in Compositionality*.
