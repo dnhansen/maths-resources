@@ -192,13 +192,15 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
-2. Smith, *Category Theory I* and *II*. Probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it counts. While some might find this annoying, I do think it has its place in an introduction to category theory since e.g. questions of size arise almost immediately. He also discusses the distinction between sets as objects in their own right and *virtual classes*, a very welcome addition to the elementary mathematics literature.
+2. Smith, *Category Theory I* and *II*. The second part is at the time of writing (June 2023) unrevised, so I will chiefly comment on part I.
+   
+    This is probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it makes sense to be. While some might find this annoying, I do think it has its place in an introduction to category theory since foundational questions arise almost immediately: Is set theory the only possible foundation for mathematics, and how do we motivate using set theory? What do we even mean by such a foundation? What kinds of properties must we take (or do we want) sets to have, and how do they affect the relationship between set theory and category theory?
 
-    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation and to highlight some foundational questions, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Types of arrows, concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only in part II does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
+    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation and to highlight some foundational questions, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Different types of arrows (or morphisms), concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only in part II does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
 
-    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes. Also note that part II is a work in progress, so parts of it may appear more scruffy than others, but they are still eminently readable.
+    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes, and most results have elementary proofs that only require one to understand the abstractions.
 
-    It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
+    It is freely available on Smith's website [here](https://www.logicmatters.net/categories/). In spite of the praise I have given the notes above, I do think Smith jumps over some points too quickly. I have written a supplement [here](/smith-category-theory.md) (a work in progress!) which attempts to fill these gaps.
 
 3. Goldblatt, *Topoi: The Categorical Analysis of Logic*.
 
