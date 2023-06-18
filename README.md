@@ -40,6 +40,8 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
     - [Quantum mechanics](#quantum-mechanics)
   - [Computer science](#computer-science)
     - [Algorithms and data structures](#algorithms-and-data-structures)
+    - [Computer architecture](#computer-architecture)
+    - [Operating systems](#operating-systems)
     - [Haskell](#haskell)
 
 ## Analysis
@@ -481,6 +483,32 @@ Philosophy isn't mathematics either.
 1. Cormen, Leiserson, Rivest, Stein, *Introduction to Algorithms*.
 2. Kleinberg, Tardos, *Algorithm Design*.
 3. Okasaki, *Purely Functional Data Structures*.
+
+
+### Computer architecture
+
+1. Tanenbaum, Austin, *Structured Computer Organization*. A classic, covering Tanenbaum's Mic microarchitecture and IJVM. Some of this book is very good, but then some of it is borderline unreadable. Obviously the many chapters on concrete architectures or other technologies are only of interest to practitioners. Apart from this, chapters 1 and 3-5 are quite good.
+
+    Chapter 3 covers the basics of digital logic (though I prefer Mano and Ciletti's coverage, see below), focusing on the types of circuits that are of interest in computer architecture. Most of this is perfectly fine.
+
+    Chapter 4 then covers the Mic microarchitecture, a very simple processor that is supposed to implement IJVM, which is a subset of the JVM instruction set only containing integer instructions. And it is indeed simple and very useful as a reference microarchitecture, though the exposition could be (much) better. For instance, the authors discuss issues of timing at least three times, when it really should be enough to cover this once. Furthermore, the explanation of branching is also rather hard to follow.
+
+    Chapter 5 covers general instruction sets, and this discussion is fairly good.
+
+    The IJVM instruction set is strange in that its virtual machine is stack-based, in contrast with e.g. the x86 or ARM instruction sets. In particular, none of the registers of the Mic are visible at the ISA level, so one gets basically no experience with proper assembly programming by programming in IJVM. Hence it is most useful as a conceptual model, as an example of how one might implement a fairly high level assembly language in a concrete microarchitecture.
+
+    While the introduction of chapter 6 helps one place operating systems in the machine hierarchy, this is followed by a more or less incomprehensible discussion of virtual memory. For (much) better introductions to virtual memory, see the recommendations [below](#operating-systems).
+
+    The introduction of chapter 7 on assembly is similarly useful, especially since the relationship between the ISA, OS and assembly levels can be hard to understand. The rest of this chapter seems like a bunch of fluff, to be honest.
+
+2. Comer, *Essentials of Computer Architecture*.
+3. Mano, Ciletti, *Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog*.
+
+
+### Operating systems
+
+1. Arpaci-Dusseau, Arpaci-Dusseau, *Operating Systems: Three Easy Pieces*. Also known as simply "OSTEP".
+2. Hailperin, *Operating Systems and Middleware*.
 
 
 ### Haskell
