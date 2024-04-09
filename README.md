@@ -31,6 +31,7 @@ The list is (clearly) far from complete. I will add to it whenever I feel like i
   - [Order theory](#order-theory)
   - [Logic](#logic)
     - [Propositional and first-order logic](#propositional-and-first-order-logic)
+    - [Second-order logic](#second-order-logic)
     - [Set theory](#set-theory)
     - [Computability theory](#computability-theory)
     - [Model theory](#model-theory)
@@ -87,18 +88,22 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     Note however that Bauer's Radon measures are *inner* regular instead of *outer* regular. See my notes on Schwartz' *Radon Measures on Arbitrary Topological Spaces and Cylindrical Measures* below.
 
-2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. The chapter on Polish spaces is particularly nice.
+2. Cohn, *Measure Theory*. As with Bauer above I haven't read much of this book, but it seems a quite popular introduction to the subject. Some highlights:
+
+    - Chapter 4 on signed and complex measures is excellent, much preferrable to e.g. Folland's approach, though I do prefer Folland's treatment of functions of bounded variation.
+    - Chapter 8 on Polish spaces is a great introduction to the subject.
+    - Section 10.6 on construction of probability measures (including the Kolmogorov consistency theorem) is a good supplement to Folland and Bauer (see [below](#probability-theory) for the latter) who all take different approaches.
 
 3. Folland, *Real Analysis*. Perhaps not the best *introduction* to measure and integration theory, but it is great as a second book on the subject. Some chapters are certainly better than others:
 
     - Chapter 1, Measures: Skip the results on products of $\sigma$-algebras and see instead [these notes](https://github.com/dnhansen/topology-measure-theory-notes). Many results on e.g. outer measures are fairly obvious geometrically.
     - Chapter 2, Integration: For convergence in measure, see instead [these notes](https://github.com/dnhansen/math-analysis).
-    - Chapter 3, Signed Measures and Differentiation: §§3.4-5 on differentiation and functions of bounded variation can be skipped on first reading. See [this question](https://math.stackexchange.com/questions/3806610/folland-complex-measures-total-variation-definition) on StackExchange about the total variation of complex measures.
-    - Chapter 4, Point Set Topology: For nets (and filters) and Tychonoff's theorem, see instead [these notes](https://github.com/dnhansen/topology-nets-filters). Arzelà-Ascoli can be skipped, and so can §4.8 about embeddings in cubes.
+    - Chapter 3, Signed Measures and Differentiation: §§3.4-5 on differentiation and functions of bounded variation can be skipped on first reading, though they really are fundamental topics. See [this question](https://math.stackexchange.com/questions/3806610/folland-complex-measures-total-variation-definition) on StackExchange about the total variation of complex measures, though as mentioned above I prefer Cohn's treatment.
+    - Chapter 4, Point Set Topology: For nets (and filters) and Tychonoff's theorem, see instead [these notes](https://github.com/dnhansen/topology-nets-filters). Arzelà-Ascoli can be skipped on first reading, and so can §4.8 about embeddings in cubes.
     - Chapter 5, Elements of Functional Analysis: For more on topological vector spaces, see [these notes](https://github.com/dnhansen/topological-groups).
-    - Chapter 6, $L^p$ Spaces: For completeness, see [these notes](https://github.com/dnhansen/math-analysis). §6.2 on duality can be skipped if the proof of Minkowski's inequality for integrals is replaced by the proof I give in [these notes](https://github.com/dnhansen/folland-real-analysis) (this proof mimics the usual proof of Minkowski's inequality). Apart from this inequality, §§6.3-5 can be skipped on a first reading.
-    - Chapter 7, Radon Measures: §7.4 on products of Radon measures can be skipped on a first reading.
-    - Chapter 8, Elements of Fourier Analysis: §§8.4-7 can be skipped on a first reading. See [these notes](https://github.com/dnhansen/folland-real-analysis) for a proof of the Plancherel theorem that does not use the Schwartz space.
+    - Chapter 6, $L^p$ Spaces: For completeness, see [these notes](https://github.com/dnhansen/math-analysis). §6.2 on duality can be skipped if the proof of Minkowski's inequality for integrals is replaced by the proof I give in [these notes](https://github.com/dnhansen/folland-real-analysis) (this proof mimics the usual proof of Minkowski's inequality). Apart from this inequality, §§6.3-5 can be skipped on a first reading, though ideally take note of the Riesz-Thorin interpolation theorem since it is an important tool in e.g. Fourier analysis (the [Wikipedia page](https://en.wikipedia.org/wiki/Riesz%E2%80%93Thorin_theorem) has a nice geometric interpretation of part of the theorem).
+    - Chapter 7, Radon Measures: §7.4 on products of Radon measures can be skipped on a first reading, though note that they are used in e.g. harmonic analysis.
+    - Chapter 8, Elements of Fourier Analysis: See [these notes](https://github.com/dnhansen/folland-real-analysis) for a proof of the Plancherel theorem that does not use the Schwartz space. While §8.4 is fairly technical and can be skipped, §8.5 is central and uses only the basic results on functions of bounded variation. The material in §8.6 is probably covered better elsewhere (e.g. in Bauer).
     - Chapter 9, Elements of Distribution Theory: See [these notes](https://github.com/dnhansen/folland-real-analysis) for a proof of the fundamental lemma of the calculus of variations that does not use the theory of differentiation.
 
     Some issues I have with the book: Folland doesn't assume any knowledge of topological spaces, so many theorems in the first half of the book are stated for metric spaces even though they generalise immediately. Some of the proofs are also less than clear for this reason. A few theorems are also proven in less than full generality, even though they would be no less difficult to state or prove more generally. So keep your eye out, and if it seems like something can be generalised, it probably can.
@@ -342,6 +347,8 @@ I won't say much more about metric spaces. Onto the main recommendations for poi
     - It is well-known that many types of structures are preserved under intersection but not union: For instance, any intersection of subgroups is a subgroup, but a union of subgroups is usually not a subgroup. However, a union of an *increasing sequence* of subgroups is a subgroup. In other words, the union of a *chain* of subgroups is a subgroup. The authors note that it suffices that a collection of subgroups is *directed* for its union to be a subgroup. (Cf. Definition 7.10 and the following discussion.)
 
         I am reminded of the fact from topology that the union of a finite collection of closed sets is closed, but it actually suffices that the collection is *locally* finite (cf. e.g. Lee's *Introduction to Topological Manifolds*, Lemma 4.75).
+    
+    - The book is also an excellent introduction to fixpoint theory, though note that their CPO Fixpoint Theorem III (proved in Exercise 8.20) contains an error, in that the function $F$ does not need to have a *minimal* fixpoint.
 
 2. Fong, Spivak, *Seven Sketches in Compositionality*.
 
@@ -371,10 +378,25 @@ Next, Smith recommends Chiswell and Hodges' *Mathematical Logic*, and this is ce
 
 At this point the groundwork has been laid, and there are multiple different directions one could go in: The most important are set theory, computability theory, and model theory. Mathematicians should cope readily with the technical aspects of set theory, though they may struggle slightly with the more philosophical or conceptual parts (unless they have been brought up right). Computability theory is of central importance in computer science, and we also collect the more CS-oriented recommendations here. Finally, model theory is probably the most technically (if not conceptually) difficult of the three.
 
+
+### Second-order logic
+
+At this point I believe it is useful to study briefly second-order logic. First of all to contrast this with first-order logic in order to better see what makes FOL special, and secondly because for mathematicians second-order logic is very natural, and one might even argue that it is more natural than FOL.
+
+1. Shapiro, 'Higher-order Logic', in Shapiro, ed., *The Oxford Handbook of the Philosophy of Mathematics and Logic*.
+2. Button, Walsh, *Philosophy and Model Theory*, chapter 1.
+
+
 ### Set theory
 
-1. Goldrei, *Classic Set Theory*.
-2. Potter, *Set Theory and Its Philosophy*.
+Mathematicians should have a good understanding of naïve set theory.
+
+1. Moschovakis, *Notes on Set Theory*. A very conceptually sound introduction. Moschovakis (rightly, in my view) studies not *formal* set theory but rather *axiomatic* set theory. That is, he studies those properties of sets that are captured by the axioms, he doesn't study the properties of a formalisation of set theory. This means that he can unproblematically talk about the empty set, or the union of two sets, and so on. This is not the case in the study of *formal* set theory, in which one cannot even refer to the empty set since the only terms in the language are variables.
+
+    For things like recursion and lattice theory, see also [my CS bachelor project](https://github.com/dnhansen/cs-bachelor-project).
+
+2. Goldrei, *Classic Set Theory*.
+3. Potter, *Set Theory and Its Philosophy*.
 
 ### Computability theory
 
