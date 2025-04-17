@@ -18,3 +18,26 @@ But notice that this is exactly what we want from a pairing scheme. For each $x$
 Smith then lifts this to a definition: $\mathrm{O}$, $\pi_1$ and $\pi_2$ form a *product* of $\mathrm{X}$ with $\mathrm{Y}$ if for each $x$ and $y$ there is a unique $o$ among the $\mathrm{O}$ such that $\pi_1 o = x$ and $\pi_2 o = y$. If we had a pairing scheme for pairing $\mathrm{X}$ with $\mathrm{Y}$, then we would surely have a product. But the above discussion shows that the converse also holds: The projections in the product, given the uniqueness assumption, uniquely determine a pairing function $\mathit{pr}$, and so we end up with a pairing scheme.
 
 The difference between a pairing scheme and a product is then simply that we have substituted the pairing function (and property 2 above) for the uniqueness of pair objects. And these are equivalent.
+
+
+## 14. Quotients, pre-categorially
+
+### Equialence relations in general, and equivalence kernels
+
+First notice that if $R$ and $E$ are relations defined over some objects $\mathrm{Y}$, where $E$ is an equivalence relation, then for the reflexive, symmetric, transitive closure $\overline{\overline{R}}$ of $R$ to be contained in $E$, it suffices that $R$ is contained in $E$. This follows since $\overline{\overline{R}}$ by definition is the smallest equivalence relation that contains $R$. The existence of such an equivalence relation follows in one of two ways:
+
+1. If we have access to intersections of arbitrary collections of relations, we can simply take the intersection of all equivalence relations that contain $R$, of which there is at least one, namely the trivial relation on $\mathrm{Y}$ identifying all objects. This is e.g. possible if $Y$ is a set, since then there is only a set's worth of equivalence relations on $Y$, and so we can take their intersection.
+2. If not, then we may proceed as follows: First extend $R$ by making all instances of the form $yRy$ true, which makes $R$ reflexive. Next add instances of the form $y'Ry$ whenever $yRy'$ is already true. This makes $R$ symmetric, and it preserves reflexivity. Finally if $yRy'$ and $y'Ry''$ are already true, then add $yRy''$, making $R$ transitive. This again obviously preserves reflexivity, and notice that it also preserves symmetry: For if $yRy''$ is now true, then either it already was before making $R$ transitive, or else there is some $y'$ such that $yRy'$ and $y'Ry''$ were true before. But $R$ was symmetric before making it transitive, so in the first case we also had $y''Ry$. In the latter case we would then also have $y'Ry$ and $y''Ry'$, but then taking the transitive closure we would get $y''Ry$. Hence $R$ is still symmetric.
+
+Then notice that if some function $k \colon \mathrm{Y} \to \mathrm{Z}$ respects $R$, then $R$ is contained in the equivalence kernel $E_k$. But then $\overline{\overline{R}}$ is also contained in $E_k$.
+
+
+### Equivalence projections
+
+As far as I know, the term 'equivalence projection' was introduced by Smith and is not common terminology. It is not immediately clear why equivalence projections are interesting.
+
+Given a function $k \colon \mathrm{Y} \to \mathrm{Z}$, is there some natural (equivalence) relation on $\mathrm{Y}$ determined by $k$? Indeed, the equivalence kernel $E_k$ of $k$: Say that $y E_k y'$ if there is some $z$ such that $k(y) = z$ and $k(y') = z$. But given a function $f \colon \mathrm{X} \to \mathrm{Y}$, is there now a natural relation on $\mathrm{Y}$ determined by $f$? By analogy with equivalence kernels, we might try to define a relation $R_f$ on $\mathrm{Y}$ by saying that $y R_f y'$ if there is an $x$ such that $f(x) = y$ and $f(x) = y'$. But this is not very useful, since then $R_f$ would simply be equality on the image of $f$.
+
+Instead, consider a more general kind of relation: If $h \colon \mathrm{Y} \to \mathrm{Z}$ is another function, say that $y E_{kh} y'$ if $k(y) = h(y')$, i.e. if there is some $z$ such that $k(y) = z$ and $h(y') = z$. This is clearly not an equivalence relation in general, since for it to be reflexive we must have $k = h$. Why this should be interesting to consider is also not quite clear, but it seems an obvious generalisation of equivalence kernels. In fact, given $n$ functions we may analogously define an $n$-place relation on $\mathrm{Y}$.
+
+If we then have another function $g \colon \mathrm{X} \to \mathrm{Y}$, say that $y R_{fg} y'$ if there is some $x$ with $f(x) = y$ and $g(x) = y'$. Taking the reflexive, symmetric and transitive closure we obtain the equivalence projection $\overline{\overline{R_{fg}}}$.

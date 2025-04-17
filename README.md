@@ -141,6 +141,64 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
 ## Algebra
 
+### Groups
+
+1. Aluffi: Chapters II and IV. Can skip §II.10, §IV.2.5, Proposition IV.3.5 and §IV.3.3, and §IV.4.4 (though note the statement of Theorem 4.20 as well as Corollary 4.21). Finally, §IV.5 can be postponed until after chapter III has been read.
+2. Rotman part I: The definition of normal series on p. 192 through Theorem A-5.30, except Lemma A-5.21. Skip the proofs of Propositions A-5.22 through A-5.25
+3. Rotman part II: TODO anything interesting?
+4. Rotman groups: Chapter 5 from p. 102, also Krull-Schmidt in chapter 6 from p. 144. Also stuff in chapter 7, also postpone until Aluffi chapter III.
+5. Grove
+6. Broué: §§5.1-2
+
+### Rings
+
+1. Aluffi: Chapters III and V. Also covers basics of modules needed to understand rings.
+2. Rotman A-3? B-1/2?
+3. Broué: Chapters 2, 3, 6
+
+### Fields
+
+1. Aluffi: Chapter VII
+2. Rotman A-5?
+3. Leinster?
+
+### Modules
+
+1. Aluffi: Chapters VI and VIII
+2. Rotman B-1/2/3/4/5?
+3. Broué?
+
+### Homological algebra
+
+1. Aluffi: Chapter IX
+2. Rotman C-3/4?
+
+### Commutative algebra
+
+1. Rotman B-6, C-5?
+2. Altman, Kleiman
+
+
+### Lie algebras? Or under rep theory?
+
+1. Rotman?
+2. Jacobson
+
+### Representation theory
+
+1. Steinberg
+2. Rotman?
+3. Weintraub?
+4. Quivers
+5. Broué: §§5.3-4, part IV?
+
+### Misc
+
+1. Marsh Cluster algebras?
+2. Springer Linear algebraic groups? (more like alg geo)
+
+
+
 ### Linear algebra
 
 1. Hoffman, Kunze, *Linear Algebra*. I don't know if this might be too ambitious for beginners, but if you know a thing or two about matrices it's a very good second look at linear algebra
@@ -199,19 +257,21 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     To its credit, the book does contain a lot of material of particular interest to computer scientists and logicians. But I don't understand why people use it as an introductory text.
 
-2. Smith, *Category Theory I* and *II*. The second part is at the time of writing (June 2023) unrevised, so I will chiefly comment on part I.
-   
-    This is probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it makes sense to be. While some might find this annoying, I do think it has its place in an introduction to category theory since foundational questions arise almost immediately: Is set theory the only possible foundation for mathematics, and how do we motivate using set theory? What do we even mean by such a foundation? What kinds of properties must we take (or do we want) sets to have, and how do they affect the relationship between set theory and category theory?
+2. Smith, *Introducing Category Theory*. This is probably my favourite introduction to category theory. Smith is a logician and philosopher, and as such he is *very* careful when it makes sense to be. While some might find this annoying, I do think it has its place in an introduction to category theory since foundational questions arise almost immediately: Is set theory the only possible foundation for mathematics, and how do we motivate using set theory? What do we even mean by such a foundation? What kinds of properties must we take (or do we want) sets to have, and how do they affect the relationship between set theory and category theory?
 
-    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation and to highlight some foundational questions, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Different types of arrows (or morphisms), concrete examples of limits and colimits (he has four chapters devoted to examples before giving the general definitions), subobjects, exponentials and group objects. Only in part II does he introduce functors, and later of course natural transformations, representables, adjoints, etc.
+    The coverage is fairly standard. The level of abstraction increases very gradually: Smith starts with a survey of groups, mostly to serve as motivation and to highlight some foundational questions, before he defines categories. After a brief detour into subcategories, products and quotients, he stays *inside* a single category while covering all the basic material. Different types of arrows (or morphisms), concrete examples of limits and colimits before meeting the (or a) general definition, and exponentials.
 
-    The writing is clear, the examples are enlightening, the only thing to detract from it is the lack of exercises, but then it really is only a set of notes, and most results have elementary proofs that only require one to understand the abstractions.
+    After an interlude into basic topos theory (which can be skipped), he introduces functors, natural transformations, the Yoneda lemma and representables, and finally adjunctions. I particularly appreciate the presentation of the Yoneda lemma, which is especially well-motivated: The first natural question is what natural transformations between hom-functors look like, and only after these does Smith consider what can be generalised.
 
-    It is freely available on Smith's website [here](https://www.logicmatters.net/categories/). In spite of the praise I have given the notes above, I do think Smith jumps over some points too quickly. I have written a supplement [here](/smith-category-theory.md) (a work in progress!) which attempts to fill these gaps.
+    The writing is very clear, though I do think it is a bit light on examples; but this is to be expected since it has only minimal prerequisites. I don't think the absense of exercises is a huge detriment since every proof is basically an exercise. In the same vein, I do think the most profitable way to read the book (as with most mathematics textbooks, but especially in category theory) is to only glance at the provided proofs and attempt to reconstruct them.
 
-3. Goldblatt, *Topoi: The Categorical Analysis of Logic*.
+    It is freely available on Smith's website [here](https://www.logicmatters.net/categories/).
 
-4. Leinster, *Basic Category Theory*. Ostesibly an introductory text, I think it would be difficult to follow without prior experience with category theory. But if you have read some of Smith's notes or Goldblatt's book, then it is a very nice book.
+3. Perrone, *Starting Category Theory*. A very nice new addition to the literature. Its coverage is a bit strange and should probably be supplemented with a book like Smith. Its main selling points are a great number of examples, and the slightly unorthodox inclusion of monads and monoidal categories in an introductory text.
+
+4. Goldblatt, *Topoi: The Categorical Analysis of Logic*.
+
+5. Leinster, *Basic Category Theory*. Ostesibly an introductory text, I think it would be difficult to follow without prior experience with category theory. But if you have read some of Smith's notes or Goldblatt's book, then it is a very nice book.
 
     Contrary to the above resources it is written with the mathematics (graduate) student in mind: examples are furnished by standard undergraduate algebra and topology in particular, though it is not necessary to understand every single example to get through the book. This also means that he expects a certain mathematical maturity from his readers, and thus he can be considerably more brisk in his presentation.
 
@@ -219,8 +279,8 @@ I initially learnt measure theory from Steen Thorbjørnsen's *Grundlæggende må
 
     Freely available [from arXiv](https://arxiv.org/abs/1612.09375).
 
-5. Riehl, *Category Theory in Context*.
-6. Fong, Spivak, *Seven Sketches in Compositionality*.
+6. Riehl, *Category Theory in Context*.
+7. Fong, Spivak, *Seven Sketches in Compositionality*.
 
 
 ## Topology and geometry
@@ -479,9 +539,9 @@ Philosophy isn't mathematics either.
 
 1. Griffiths, *Introduction to Quantum Mechanics*. Obviously a popular introductory text, and I do think it's one of the best ones out there. That doesn't say much since the literature is rather lacking. Let me highlight some of the obvious flaws of the book.
 
-    The author claims that a wave function (in one dimension) must go to zero as *x* goes to plus or minus infinity, otherwise it "would not be normalizable" (2nd ed., p. 14). By this he means L^2 (p. 13). But as any sophomore mathematics student fresh out their first measure theory course can tell you, this is emphatically wrong. It is easy to find counterexamples that are discontinuous on a countable nowhere dense subset of **R**, and it is only slightly harder to find counterexamples that are *smooth*. In a footnote (p. 14) Griffiths claims that counterexamples to this claim are "pathological" and that "for us the wave function *always* goes to zero at infinity". (Only in physics could *smooth* functions be pathological... I suppose anything that is not analytic is the work of the devil?) The author also spends no effort explaining to the reader why in the world we should expect (and even postulate!) wave functions to vanish at infinity.
+    The author claims that a wave function (in one dimension) must go to zero as $x$ goes to plus or minus infinity, otherwise it "would not be normalizable" (2nd ed., p. 14). By this he means $L^2$ (p. 13). But as any sophomore mathematics student fresh out their first measure theory course can tell you, this is emphatically wrong. It is easy to find counterexamples that are discontinuous on a countable nowhere dense subset of $\mathbb{R}$, and it is only slightly harder to find counterexamples that are *smooth*. In a footnote (p. 14) Griffiths claims that counterexamples to this claim are "pathological" and that "for us the wave function *always* goes to zero at infinity". (Only in physics could *smooth* functions be pathological... I suppose anything that is not analytic is the work of the devil?) The author also spends no effort explaining to the reader why in the world we should expect (and even postulate!) wave functions to vanish at infinity.
     
-    In any case, if the problem with functions not going to zero at infinity is that they are so-called "pathological", then why claim that they are not L^2, only to retract this claim in a footnote? There are many functions that do and no not have this property, many of whom are L^2 and many of whom are not. It simply has nothing to do with them being L^2. Even a physicist should be able to see that. Evidently the author does as well, though he apparently also thinks that it would take a "good" mathematician to come up with counterexamples...
+    In any case, if the problem with functions not going to zero at infinity is that they are so-called "pathological", then why claim that they are not $L^2$, only to retract this claim in a footnote? There are many functions that do and no not have this property, many of whom are $L^2$ and many of whom are not. It simply has nothing to do with them being $L^2$. Even a physicist should be able to see that. Evidently the author does as well, though he apparently also thinks that it would take a "good" mathematician to come up with counterexamples...
 
     Another conceptually quite egregious flaw is the front-loading of the Schrödinger equation. This is introduced on page 1 with no explanation. No hint at how to think about it, no history, nothing. This is followed by a bunch of uninspiring, actually quite difficult for this level, calculations that tell you precisely nothing about quantum mechanics.
 
